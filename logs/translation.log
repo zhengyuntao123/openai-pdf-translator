@@ -1,0 +1,1238 @@
+2023-12-27 04:53:32.308 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:53:32.311 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:53:32.328 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:53:41.745 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+这个数据集包含了由ChatGPT提供的两个测试样本，ChatGPT是OpenAI的一个AI语言模型。
+这些样本包括一个Markdown表格和一个英文文本段落，可以用来测试支持文本和表格格式的英译汉软件。
+文本测试
+快速的棕色狐狸跳过懒狗。这个全字母句包含了英语字母表中的每个字母。全字母句经常被用来测试字体、键盘和其他与文本相关的工具。除了英语之外，还有许多其他语言的全字母句。由于语言的独特特点，有些全字母句更难构造。
+表格测试
+2023-12-27 04:53:41.747 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:53:46.622 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果      颜色      价格（美元）
+苹果      红色      1.20
+香蕉      黄色      0.50
+橙子      橙色      0.80
+草莓      红色      2.50
+蓝莓      蓝色      3.00
+猕猴桃    绿色      1.00
+芒果      橙色      1.50
+葡萄      紫色      2.00
+2023-12-27 04:53:46.623 | DEBUG    | book.content:set_translation:49 - 水果      颜色      价格（美元）
+苹果      红色      1.20
+香蕉      黄色      0.50
+橙子      橙色      0.80
+草莓      红色      2.50
+蓝莓      蓝色      3.00
+猕猴桃    绿色      1.00
+芒果      橙色      1.50
+葡萄      紫色      2.00
+2023-12-27 04:53:46.624 | DEBUG    | book.content:set_translation:52 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2023-12-27 04:53:46.625 | DEBUG    | book.content:set_translation:55 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2023-12-27 04:53:46.628 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/test.pdf
+2023-12-27 04:53:46.628 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/test_translated.md
+2023-12-27 04:53:46.629 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/test_translated.md
+2023-12-27 04:55:43.082 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:55:43.085 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:55:43.103 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:55:48.810 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+这个数据集包含了ChatGPT提供的两个测试样本，ChatGPT是OpenAI的一个AI语言模型。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中翻译软件。
+文本测试
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+表格测试
+2023-12-27 04:55:48.813 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:55:52.142 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色     价格（美元）
+Apple     Red     1.20
+Banana    Yellow  0.50
+Orange    Orange  0.80
+Strawberry Red     2.50
+Blueberry Blue    3.00
+Kiwi      Green   1.00
+Mango     Orange  1.50
+Grape     Purple  2.00
+2023-12-27 04:55:52.143 | DEBUG    | book.content:set_translation:49 - 水果    颜色     价格（美元）
+Apple     Red     1.20
+Banana    Yellow  0.50
+Orange    Orange  0.80
+Strawberry Red     2.50
+Blueberry Blue    3.00
+Kiwi      Green   1.00
+Mango     Orange  1.50
+Grape     Purple  2.00
+2023-12-27 04:55:52.144 | DEBUG    | book.content:set_translation:52 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2023-12-27 04:55:52.145 | DEBUG    | book.content:set_translation:55 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2023-12-27 04:55:52.149 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/test.pdf
+2023-12-27 04:55:52.149 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/test_translated.md
+2023-12-27 04:55:52.150 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/test_translated.md
+2023-12-27 04:56:20.961 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:56:20.965 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:56:20.982 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-12-27 04:56:29.380 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+这个数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中翻译软件。
+文本测试
+快速的棕色狐狸跳过懒狗。这个每个字母至少包含一次的句子是一种使用全部英文字母的句子。Pangram经常用于测试字体、键盘和其他与文本相关的工具。除了英语之外，还有很多其他语言的Pangram。由于语言的独特特点，有些Pangram更难构造。
+表格测试
+2023-12-27 04:56:29.382 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-12-27 04:56:33.178 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色    价格（USD）
+Apple    Red       1.20
+Banana    Yellow 0.50
+Orange    Orange 0.80
+Strawberry   Red       2.50
+Blueberry   Blue      3.00
+Kiwi         Green   1.00
+Mango    Orange  1.50
+Grape      Purple   2.00
+2023-12-27 04:56:33.178 | DEBUG    | book.content:set_translation:49 - 水果    颜色    价格（USD）
+Apple    Red       1.20
+Banana    Yellow 0.50
+Orange    Orange 0.80
+Strawberry   Red       2.50
+Blueberry   Blue      3.00
+Kiwi         Green   1.00
+Mango    Orange  1.50
+Grape      Purple   2.00
+2023-12-27 04:56:33.180 | DEBUG    | book.content:set_translation:52 - [['水果', '颜色', '价格（USD）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2023-12-27 04:56:33.181 | DEBUG    | book.content:set_translation:55 -            水果      颜色 价格（USD）
+0       Apple     Red    1.20
+1      Banana  Yellow    0.50
+2      Orange  Orange    0.80
+3  Strawberry     Red    2.50
+4   Blueberry    Blue    3.00
+5        Kiwi   Green    1.00
+6       Mango  Orange    1.50
+7       Grape  Purple    2.00
+2023-12-27 04:56:33.185 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/test.pdf
+2023-12-27 04:56:33.185 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/test_translated.md
+2023-12-27 04:56:33.186 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/test_translated.md
+2023-12-27 05:22:58.092 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Yuntao Zheng
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+EDUCATION
+Carnegie Mellon University Pittsburgh, PA
+Master of Science in Artificial Intelligence Engineering – Electrical and Computer Engineering December 2024
+Wuhan University Wuhan, China
+Bachelor of Engineering in Computer Science and Technology June 2023
+GPA: 3.86/4.0
+SKILLS
+Programming Languages: Advanced - C/C++ | Advanced - Python | Advanced - Java | Advanced - SQL | Basic -
+HTML | Basic - CSS | Basic - JavaScript
+Software: Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+Libraries: NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+COURSE PROJECTS
+FIFA Player Valuation Prediction September 2022 – November 2023
+ Utilized PySpark to read datasets, crafted schemas, and wrote data into a PostgreSQL database.
+ Implemented various query operations using SparkSQL through both PySpark API and SQL.
+ Applied Spark Pipeline for data engineering. Employed SparkML, PyTorch, and TensorFlow to
+implement multiple machine learning models, including Linear Regression, GBT, MLP, CNN, for
+predicting player valuations. Analyzed and compared the performance of different models.
+ACADEMIC PROJECTS
+Wuhan University Wuhan, China
+Electroencephalogram Temporal-Spatial Feature Learning September 2021 - June 2023
+ Established machine learning models based on CNN and LSTM to predict optimal parameters of
+Electroconvulsive Therapy(ECT) by utilizing electroencephalogram(EEG)
+ Assumed a leadership role in organizing a five-member team tasked with various responsibilities.
+Conducted regular meetings and facilitated discussions
+ Developed ECTNET which accomplished 1) Temporal-Spatial Feature Learning, 2) Stimulus Parameter
+Association, and 3) Seizure Prediction. The model had achieved: 1) an F1-score of 0.90, a precision of
+88.85% and a recall of 94.05% in the prediction of seizure induction, outperforming state-of-the-art
+counterparts
+Carnegie Mellon University Pittsburgh, PA - Virtual
+Zero-Cost Proxies for Neural Architecture Search July 2022 - February 2023
+ Evaluated SOTA zero-cost proxies such as NASWOT, Synflow, Grasp, Snip, etc. Quantified how well
+these proxies preserve rankings among multiple architectures in NAS-Bench-201 during search
+ Utilized MLP and CNN to develop a model, which improved Spearman correlation coefficient between
+rankings predicted by the model with ground-truth rankings from 0.74 on CIFAR-10, 0.76 on CIFAR-100,
+0.75 on ImageNet16-120 to 0.88, 0.90, 0.86
+ Built YTNAS based on the model and aging evolution, which however was not as fast as the SOTA
+methods
+PUBLICATIONS
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo, "EEG Temporal-Spatial Feature Learning for
+Automated Selection of Stimulus Parameters in Electroconvulsive Therapy," Submitted to IEEE Journal
+of Biomedical and Health Informatics
+ Y. Zheng, "A Default Prediction Method using XGBoost and LightGBM," 2022 International Conference
+on Image Processing, Computer Vision and Machine Learning (ICICML), Xi'an, China, 2022, pp. 210-213
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu, "An Optimized Deep Learning Model for
+Flower Classification Using Multilayer CNN, " Submitted to IEEE 2021
+AWARDS AND HONORS
+Bronze Medal | The 2020 China Collegiate Programming Contest (CCPC) - Changchun
+Bronze Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia - Nanjing
+Silver Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia – Shenyang
+2023-12-27 05:22:58.103 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Yuntao Zheng
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+EDUCATION
+Carnegie Mellon University Pittsburgh, PA
+Master of Science in Artificial Intelligence Engineering – Electrical and Computer Engineering December 2024
+Wuhan University Wuhan, China
+Bachelor of Engineering in Computer Science and Technology June 2023
+GPA: 3.86/4.0
+SKILLS
+Programming Languages: Advanced - C/C++ | Advanced - Python | Advanced - Java | Advanced - SQL | Basic -
+HTML | Basic - CSS | Basic - JavaScript
+Software: Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+Libraries: NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+COURSE PROJECTS
+FIFA Player Valuation Prediction September 2022 – November 2023
+ Utilized PySpark to read datasets, crafted schemas, and wrote data into a PostgreSQL database.
+ Implemented various query operations using SparkSQL through both PySpark API and SQL.
+ Applied Spark Pipeline for data engineering. Employed SparkML, PyTorch, and TensorFlow to
+implement multiple machine learning models, including Linear Regression, GBT, MLP, CNN, for
+predicting player valuations. Analyzed and compared the performance of different models.
+ACADEMIC PROJECTS
+Wuhan University Wuhan, China
+Electroencephalogram Temporal-Spatial Feature Learning September 2021 - June 2023
+ Established machine learning models based on CNN and LSTM to predict optimal parameters of
+Electroconvulsive Therapy(ECT) by utilizing electroencephalogram(EEG)
+ Assumed a leadership role in organizing a five-member team tasked with various responsibilities.
+Conducted regular meetings and facilitated discussions
+ Developed ECTNET which accomplished 1) Temporal-Spatial Feature Learning, 2) Stimulus Parameter
+Association, and 3) Seizure Prediction. The model had achieved: 1) an F1-score of 0.90, a precision of
+88.85% and a recall of 94.05% in the prediction of seizure induction, outperforming state-of-the-art
+counterparts
+Carnegie Mellon University Pittsburgh, PA - Virtual
+Zero-Cost Proxies for Neural Architecture Search July 2022 - February 2023
+ Evaluated SOTA zero-cost proxies such as NASWOT, Synflow, Grasp, Snip, etc. Quantified how well
+these proxies preserve rankings among multiple architectures in NAS-Bench-201 during search
+ Utilized MLP and CNN to develop a model, which improved Spearman correlation coefficient between
+rankings predicted by the model with ground-truth rankings from 0.74 on CIFAR-10, 0.76 on CIFAR-100,
+0.75 on ImageNet16-120 to 0.88, 0.90, 0.86
+ Built YTNAS based on the model and aging evolution, which however was not as fast as the SOTA
+methods
+PUBLICATIONS
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo, "EEG Temporal-Spatial Feature Learning for
+Automated Selection of Stimulus Parameters in Electroconvulsive Therapy," Submitted to IEEE Journal
+of Biomedical and Health Informatics
+ Y. Zheng, "A Default Prediction Method using XGBoost and LightGBM," 2022 International Conference
+on Image Processing, Computer Vision and Machine Learning (ICICML), Xi'an, China, 2022, pp. 210-213
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu, "An Optimized Deep Learning Model for
+Flower Classification Using Multilayer CNN, " Submitted to IEEE 2021
+AWARDS AND HONORS
+Bronze Medal | The 2020 China Collegiate Programming Contest (CCPC) - Changchun
+Bronze Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia - Nanjing
+Silver Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia – Shenyang
+2023-12-27 05:23:44.585 | INFO     | translator.pdf_translator:translate_pdf:21 - 郑云涛
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+教育经历
+Carnegie Mellon大学，匹兹堡，宾夕法尼亚州
+人工智能工程硕士学位 - 电气与计算机工程，预计于2024年12月毕业
+武汉大学，武汉，中国
+计算机科学与技术学士学位，于2023年6月毕业
+GPA：3.86/4.0
+技能
+编程语言：高级 - C/C++ | 高级 - Python | 高级 - Java | 高级 - SQL | 基础 - HTML | 基础 - CSS | 基础 - JavaScript
+软件：Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+库：NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+课程项目
+FIFA球员估值预测，2022年9月-2023年11月
+ 使用PySpark读取数据集，构建模式，并将数据写入PostgreSQL数据库。
+ 通过PySpark API和SQL实现了各种查询操作。
+ 应用Spark Pipeline进行数据工程处理。使用SparkML、PyTorch和TensorFlow实现了多个机器学习模型，包括线性回归、GBT、MLP、CNN，用于预测球员的估值。分析和比较了不同模型的性能。
+学术项目
+武汉大学，武汉，中国
+脑电图时空特征学习，2021年9月-2023年6月
+ 基于CNN和LSTM建立机器学习模型，利用脑电图(EEG)预测电休克疗法(ECT)的最佳参数。
+ 担任一个由5名成员组成的团队的领导角色，负责各种责任。组织定期会议并促进讨论。
+ 开发了ECTNET，实现了1)时空特征学习，2)刺激参数关联，3)癫痫预测。该模型在癫痫诱导预测方面取得了0.90的F1分数，88.85%的精度和94.05%的召回率，优于当前最先进的模型。
+Carnegie Mellon大学，匹兹堡，宾夕法尼亚州 - 虚拟
+神经网络架构搜索中的零成本代理，2022年7月-2023年2月
+ 评估了NAS-Bench-201中NASWOT、Synflow、Grasp、Snip等零成本代理的表现。量化这些代理在搜索期间如何保留多个架构之间的排名。
+ 使用MLP和CNN开发了一个模型，将预测排名与基准排名的Spearman相关系数从CIFAR-10的0.74、CIFAR-100的0.76、ImageNet16-120的0.75提高到0.88、0.90、0.86。
+ 基于该模型和进化算法构建了YTNAS，但速度不如当前最先进的方法。
+出版物
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo，“EEG Temporal-Spatial Feature Learning for Automated Selection of Stimulus Parameters in Electroconvulsive Therapy”，提交给IEEE Journal of Biomedical and Health Informatics。
+ Y. Zheng, "A Default Prediction Method using XGBoost and LightGBM," 2022 International Conference on Image Processing, Computer Vision and Machine Learning (ICICML), Xi'an, China, 2022, pp. 210-213。
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu, "An Optimized Deep Learning Model for Flower Classification Using Multilayer CNN, " 提交给IEEE 2021。
+荣誉和奖项
+铜奖 | 2020年中国大学生程序设计竞赛（CCPC） - 长春
+铜奖 | 2020年国际大学生程序设计竞赛（ICPC）亚洲区 - 南京
+银奖 | 2020年国际大学生程序设计竞赛（ICPC）亚洲区 - 沈阳
+2023-12-27 05:23:44.587 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/Yuntao_Zheng_Resume.pdf
+2023-12-27 05:23:44.600 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/Yuntao_Zheng_Resume_translated.md
+2023-12-27 05:23:44.602 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/Yuntao_Zheng_Resume_translated.md
+2023-12-27 05:25:25.041 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Yuntao Zheng
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+EDUCATION
+Carnegie Mellon University Pittsburgh, PA
+Master of Science in Artificial Intelligence Engineering – Electrical and Computer Engineering December 2024
+Wuhan University Wuhan, China
+Bachelor of Engineering in Computer Science and Technology June 2023
+GPA: 3.86/4.0
+SKILLS
+Programming Languages: Advanced - C/C++ | Advanced - Python | Advanced - Java | Advanced - SQL | Basic -
+HTML | Basic - CSS | Basic - JavaScript
+Software: Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+Libraries: NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+COURSE PROJECTS
+FIFA Player Valuation Prediction September 2022 – November 2023
+ Utilized PySpark to read datasets, crafted schemas, and wrote data into a PostgreSQL database.
+ Implemented various query operations using SparkSQL through both PySpark API and SQL.
+ Applied Spark Pipeline for data engineering. Employed SparkML, PyTorch, and TensorFlow to
+implement multiple machine learning models, including Linear Regression, GBT, MLP, CNN, for
+predicting player valuations. Analyzed and compared the performance of different models.
+ACADEMIC PROJECTS
+Wuhan University Wuhan, China
+Electroencephalogram Temporal-Spatial Feature Learning September 2021 - June 2023
+ Established machine learning models based on CNN and LSTM to predict optimal parameters of
+Electroconvulsive Therapy(ECT) by utilizing electroencephalogram(EEG)
+ Assumed a leadership role in organizing a five-member team tasked with various responsibilities.
+Conducted regular meetings and facilitated discussions
+ Developed ECTNET which accomplished 1) Temporal-Spatial Feature Learning, 2) Stimulus Parameter
+Association, and 3) Seizure Prediction. The model had achieved: 1) an F1-score of 0.90, a precision of
+88.85% and a recall of 94.05% in the prediction of seizure induction, outperforming state-of-the-art
+counterparts
+Carnegie Mellon University Pittsburgh, PA - Virtual
+Zero-Cost Proxies for Neural Architecture Search July 2022 - February 2023
+ Evaluated SOTA zero-cost proxies such as NASWOT, Synflow, Grasp, Snip, etc. Quantified how well
+these proxies preserve rankings among multiple architectures in NAS-Bench-201 during search
+ Utilized MLP and CNN to develop a model, which improved Spearman correlation coefficient between
+rankings predicted by the model with ground-truth rankings from 0.74 on CIFAR-10, 0.76 on CIFAR-100,
+0.75 on ImageNet16-120 to 0.88, 0.90, 0.86
+ Built YTNAS based on the model and aging evolution, which however was not as fast as the SOTA
+methods
+PUBLICATIONS
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo, "EEG Temporal-Spatial Feature Learning for
+Automated Selection of Stimulus Parameters in Electroconvulsive Therapy," Submitted to IEEE Journal
+of Biomedical and Health Informatics
+ Y. Zheng, "A Default Prediction Method using XGBoost and LightGBM," 2022 International Conference
+on Image Processing, Computer Vision and Machine Learning (ICICML), Xi'an, China, 2022, pp. 210-213
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu, "An Optimized Deep Learning Model for
+Flower Classification Using Multilayer CNN, " Submitted to IEEE 2021
+AWARDS AND HONORS
+Bronze Medal | The 2020 China Collegiate Programming Contest (CCPC) - Changchun
+Bronze Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia - Nanjing
+Silver Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia – Shenyang
+2023-12-27 05:25:25.044 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Yuntao Zheng
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+EDUCATION
+Carnegie Mellon University Pittsburgh, PA
+Master of Science in Artificial Intelligence Engineering – Electrical and Computer Engineering December 2024
+Wuhan University Wuhan, China
+Bachelor of Engineering in Computer Science and Technology June 2023
+GPA: 3.86/4.0
+SKILLS
+Programming Languages: Advanced - C/C++ | Advanced - Python | Advanced - Java | Advanced - SQL | Basic -
+HTML | Basic - CSS | Basic - JavaScript
+Software: Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+Libraries: NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+COURSE PROJECTS
+FIFA Player Valuation Prediction September 2022 – November 2023
+ Utilized PySpark to read datasets, crafted schemas, and wrote data into a PostgreSQL database.
+ Implemented various query operations using SparkSQL through both PySpark API and SQL.
+ Applied Spark Pipeline for data engineering. Employed SparkML, PyTorch, and TensorFlow to
+implement multiple machine learning models, including Linear Regression, GBT, MLP, CNN, for
+predicting player valuations. Analyzed and compared the performance of different models.
+ACADEMIC PROJECTS
+Wuhan University Wuhan, China
+Electroencephalogram Temporal-Spatial Feature Learning September 2021 - June 2023
+ Established machine learning models based on CNN and LSTM to predict optimal parameters of
+Electroconvulsive Therapy(ECT) by utilizing electroencephalogram(EEG)
+ Assumed a leadership role in organizing a five-member team tasked with various responsibilities.
+Conducted regular meetings and facilitated discussions
+ Developed ECTNET which accomplished 1) Temporal-Spatial Feature Learning, 2) Stimulus Parameter
+Association, and 3) Seizure Prediction. The model had achieved: 1) an F1-score of 0.90, a precision of
+88.85% and a recall of 94.05% in the prediction of seizure induction, outperforming state-of-the-art
+counterparts
+Carnegie Mellon University Pittsburgh, PA - Virtual
+Zero-Cost Proxies for Neural Architecture Search July 2022 - February 2023
+ Evaluated SOTA zero-cost proxies such as NASWOT, Synflow, Grasp, Snip, etc. Quantified how well
+these proxies preserve rankings among multiple architectures in NAS-Bench-201 during search
+ Utilized MLP and CNN to develop a model, which improved Spearman correlation coefficient between
+rankings predicted by the model with ground-truth rankings from 0.74 on CIFAR-10, 0.76 on CIFAR-100,
+0.75 on ImageNet16-120 to 0.88, 0.90, 0.86
+ Built YTNAS based on the model and aging evolution, which however was not as fast as the SOTA
+methods
+PUBLICATIONS
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo, "EEG Temporal-Spatial Feature Learning for
+Automated Selection of Stimulus Parameters in Electroconvulsive Therapy," Submitted to IEEE Journal
+of Biomedical and Health Informatics
+ Y. Zheng, "A Default Prediction Method using XGBoost and LightGBM," 2022 International Conference
+on Image Processing, Computer Vision and Machine Learning (ICICML), Xi'an, China, 2022, pp. 210-213
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu, "An Optimized Deep Learning Model for
+Flower Classification Using Multilayer CNN, " Submitted to IEEE 2021
+AWARDS AND HONORS
+Bronze Medal | The 2020 China Collegiate Programming Contest (CCPC) - Changchun
+Bronze Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia - Nanjing
+Silver Medal | The 2020 International Collegiate Programming Contest (ICPC) Asia – Shenyang
+2023-12-27 05:26:12.462 | INFO     | translator.pdf_translator:translate_pdf:21 - 郑云涛
+yuntaozh@andrew.cmu.edu • (412) 758-7272 • https://www.linkedin.com/in/yuntaozh
+教育背景
+卡内基梅隆大学，匹兹堡，美国
+人工智能工程硕士 - 电气与计算机工程，预计于2024年12月毕业
+武汉大学，武汉，中国
+计算机科学与技术学士，毕业于2023年6月
+绩点：3.86/4.0
+技能
+编程语言：高级 - C/C++ | 高级 - Python | 高级 - Java | 高级 - SQL | 基础 - HTML |
+基础 - CSS | 基础 - JavaScript
+软件：Microsoft Office | Ubuntu | MySQL | Git | Anaconda | PostgreSQL | Docker | Google Cloud | AWS
+库：NumPy | SciPy | Pandas | TensorFlow | Scikit-Learn | PyTorch | Matplotlib | Mne| Matplotlib |
+PySpark | Scikit-Learn | Seaborn
+课程项目
+FIFA球员估值预测，2022年9月-2023年11月
+ 使用PySpark读取数据集，构建模式，并将数据写入PostgreSQL数据库。
+ 通过PySpark API和SQL实现了各种查询操作。
+ 应用Spark Pipeline进行数据工程。使用SparkML、PyTorch和TensorFlow实现了多个机器学习模型，
+包括线性回归、GBT、MLP、CNN等，用于预测球员估值。分析和比较了不同模型的性能。
+学术项目
+武汉大学，武汉，中国
+脑电图时空特征学习，2021年9月-2023年6月
+ 基于卷积神经网络(CNN)和长短期记忆网络(LSTM)建立了机器学习模型，用于预测电休克疗法(ECT)
+的最佳参数，利用了脑电图(EEG)
+ 担任五人小组的领导，负责组织各项工作。定期召开会议并促进讨论。
+ 开发了ECTNET，实现了以下功能：1)时空特征学习，2)刺激参数关联，3)癫痫预测。该模型在预测诱发
+癫痫方面表现优异，F1分数为0.90，精确度为88.85%，召回率为94.05%，优于同类最先进的对手。
+卡内基梅隆大学，匹兹堡，美国 - 网络课程
+用于神经架构搜索的零成本代理，2022年7月-2023年2月
+ 评估了NAS-Bench-201中NASWOT、Synflow、Grasp、Snip等零成本代理的性能。量化了这些代理在搜索过
+程中保持多个架构排序的能力。
+ 使用多层感知器(MLP)和卷积神经网络(CNN)开发了一个模型，该模型改进了在CIFAR-10、CIFAR-
+100、ImageNet16-120上基于模型预测的排名与真实排名之间的Spearman相关系数，从0.74、0.76、
+0.75提高到0.88、0.90、0.86。
+ 基于该模型和衰老进化构建了YTNAS，然而其速度不如最先进的方法。
+出版物
+ Y. Zheng, F. Wang, D. Chen, S. Weng, T. Gao, Y. Zuo，“自动选择电休克疗法刺激参数的脑电图时空特征学习”，
+已提交给IEEE生物医学与健康信息学杂志。
+ Y. Zheng，“一种使用XGBoost和LightGBM的违约预测方法”，2022年国际图像处理、计算机视觉和机器学
+习会议(ICICML)，中国西安，2022年，第210-213页。
+ Y. T. Zheng, Z. T. Wang, T. C. Zeng, D. Fang, C. J. Zhu, J. Y. Lu，“基于多层CNN的优化深度学习模型进行
+花朵分类”，已提交给IEEE 2021。
+荣誉和奖励
+铜牌 | 2020年中国大学生程序设计竞赛(CCPC) - 长春
+铜牌 | 2020年国际大学生程序设计竞赛(ICPC)亚洲区域赛 - 南京
+银牌 | 2020年国际大学生程序设计竞赛(ICPC)亚洲区域赛 - 沈阳
+2023-12-27 05:26:12.463 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/Yuntao_Zheng_Resume.pdf
+2023-12-27 05:26:12.480 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/Yuntao_Zheng_Resume_translated.pdf
+2023-12-27 05:26:12.587 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/Yuntao_Zheng_Resume_translated.pdf
+2023-12-27 05:30:53.302 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+Attention Is All You Need
+AshishVaswani∗ NoamShazeer∗ NikiParmar∗ JakobUszkoreit∗
+GoogleBrain GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+LlionJones∗ AidanN.Gomez∗ † ŁukaszKaiser∗
+GoogleResearch UniversityofToronto GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+Abstract
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2023-12-27 05:30:53.304 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+Attention Is All You Need
+AshishVaswani∗ NoamShazeer∗ NikiParmar∗ JakobUszkoreit∗
+GoogleBrain GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+LlionJones∗ AidanN.Gomez∗ † ŁukaszKaiser∗
+GoogleResearch UniversityofToronto GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+Abstract
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2023-12-27 05:31:18.191 | INFO     | translator.pdf_translator:translate_pdf:21 - 鉴于提供了适当的归属，谷歌特此授予权限，仅允许在新闻或学术作品中复制本论文中的表格和图表。
+
+Attention Is All You Need
+
+Abstract
+目前主要的序列转化模型都基于复杂的循环神经网络或卷积神经网络，包括一个编码器和一个解码器。在这些最佳性能模型中，编码器和解码器之间还通过注意机制相互连接。我们提出了一种新的简单网络架构，Transformer，完全基于注意机制，完全放弃了循环和卷积。两个机器翻译任务上的实验证明，这些模型在质量上优于其他模型，同时可进行更多的并行化，并且训练时间显著减少。我们的模型在WMT 2014年英德翻译任务上达到了28.4 BLEU，在现有最佳结果（包括集成）的基础上提高了超过2 BLEU。在WMT 2014年英法翻译任务上，我们的模型经过3.5天在八个GPU上的训练，获得了41.8的最新单模型BLEU得分，这只是之前文献中最佳模型训练成本的一小部分。我们证明了Transformer在其他任务上有良好的泛化能力，通过成功地将其应用于用大量和有限训练数据进行的英语成分句法分析。
+
+作者贡献
+∗作者贡献相等。排序随机。Jakob提出用自注意力取代循环神经网络，并开始评估该想法。Ashish和Illia设计并实现了第一个Transformer模型，并在该工作的每个方面发挥了关键作用。Noam提出了缩放的点积注意力、多头注意力和无参数位置表示，并在几乎每个细节中参与其中。Niki在我们的原始代码库和tensor2tensor中设计、实现、优化和评估了无数个模型变体。Llion还尝试了新颖的模型变体，负责我们的初始代码库，并进行高效的推理和可视化。Lukasz和Aidan花费了大量时间设计tensor2tensor的各个部分，并替换了我们之前的代码库，大大改进了结果并大幅加快了我们的研究进展。
+†在GoogleBrain进行工作时完成的工作。
+‡在GoogleResearch进行工作时完成的工作。
+31stConferenceonNeuralInformationProcessingSystems（NIPS2017），美国加州长滩。
+2023-12-27 05:31:18.192 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/attention is all you need.pdf
+2023-12-27 05:31:18.197 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/attention is all you need_translated.pdf
+2023-12-27 05:31:18.296 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/attention is all you need_translated.pdf
+2023-12-27 05:32:33.466 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 1 Introduction
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1 n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1 n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1 m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2023-12-27 05:32:33.467 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：1 Introduction
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1 n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1 n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1 m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2023-12-27 05:33:19.480 | INFO     | translator.pdf_translator:translate_pdf:21 - 1 引言
+递归神经网络，长短时记忆[13]和门控递归[7]神经网络已经在序列建模和转化问题（如语言建模和机器翻译[35,2,5]）中被确立为最先进的方法。自那时以来，许多努力继续推动递归语言模型和编码器-解码器架构的边界[38,24,15]。
+
+传统模型通常沿着输入和输出序列的符号位置进行计算。将位置与计算时间步长对齐，它们生成一个隐藏状态h的序列，作为前一个隐藏状态h和位置t的输入的函数。然而，这种顺序性质限制了在训练示例中的并行化，在较长的序列长度上变得非常关键，因为内存限制会限制批量化跨示例。最近的研究通过因子化技巧[21]和条件计算[32]在计算效率方面取得了显著的改进，同时在后一种情况下也改善了模型性能。然而，顺序计算的基本限制仍然存在。
+
+注意机制已经成为引人注目的序列建模和变换模型的一个重要组成部分，在各种任务中允许建模不考虑输入或输出序列中的距离的依赖关系[2,19]。然而，在除了少数情况[27]之外，这种注意机制通常与递归网络一起使用。
+
+在这项工作中，我们提出了Transformer模型架构，它摈弃了递归，并完全依赖注意机制来绘制输入和输出之间的全局依赖关系。Transformer允许更多的并行化，在仅经过12小时的训练并使用8个P100 GPU后，可以达到机器翻译质量的新水平。
+
+2 背景
+减少顺序计算的目标也是Extended Neural GPU[16]、ByteNet[18]和ConvS2S[9]的基础，它们都使用卷积神经网络作为基本构建块，对所有输入和输出位置进行并行计算隐藏表示。在这些模型中，从两个任意输入或输出位置关联信号所需的操作数量随着位置之间的距离而线性增长（对于ConvS2S）或对数增长（对于ByteNet）。这使得学习远距离位置之间的依赖关系变得更加困难[12]。在Transformer中，这被减少到一定数量的操作次数，尽管由于平均注意加权位置而导致效果分辨率降低，我们通过多头注意力来抵消这种效果，如第3.2节所述。
+
+自注意力，有时被称为内部注意力，是一种关联序列中不同位置的注意机制，以便计算序列的表示。自注意力已成功应用于各种任务，包括阅读理解、抽象概括、文本蕴含和学习任务无关的句子表示[4,27,28,22]。
+
+端到端记忆网络基于递归注意机制而不是序列对齐的递归，并已显示出在简单语言问答和语言建模任务上表现良好[34]。
+
+据我们所知，然而，Transformer是第一个完全依赖自注意力来计算其输入和输出表示而不使用序列对齐的RNN或卷积的转换模型。在接下来的几节中，我们将描述Transformer，并解释自注意力相对于模型如[17,18]和[9]的优势。
+
+3 模型架构
+大多数竞争性神经序列转导模型具有编码器-解码器结构[5,2,35]。在这里，编码器将符号表示的输入序列(x ,...,x )映射到连续表示的序列z = (z ,...,z )。给定z，解码器然后生成一个符号的输出序列(y ,...,y )，一个接一个地生成每个元素。在每一步中，模型是自回归的[10]，在生成下一个符号时，会消耗先前生成的符号作为额外的输入。
+2023-12-27 05:33:19.481 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/attention is all you need.pdf
+2023-12-27 05:33:19.481 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/attention is all you need_translated.pdf
+2023-12-27 05:33:19.582 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/attention is all you need_translated.pdf
+2023-12-27 06:21:27.802 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+Attention Is All You Need
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+Abstract
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2023-12-27 06:21:27.879 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 1 Introduction
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2023-12-27 06:21:27.880 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+Attention Is All You Need
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+Abstract
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2023-12-27 06:21:47.242 | INFO     | translator.pdf_translator:translate_pdf:21 - 假如给出适当的归属，Google特此授权在新闻或学术作品中单独使用本论文中的表格和图表。
+
+注意力是一切你需要的
+Ashish Vaswani∗ Noam Shazeer∗ Niki Parmar∗ Jakob Uszkoreit∗
+GoogleBrain GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+Llion Jones∗ Aidan N. Gomez∗ † Łukasz Kaiser∗
+GoogleResearch University of Toronto GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+Illia Polosukhin∗ ‡
+illia.polosukhin@gmail.com
+摘要
+目前主流的序列转换模型基于复杂的递归或卷积神经网络，其中包括编码器和解码器。性能最好的模型还通过注意力机制连接编码器和解码器。我们提出了一种新的简单网络架构，Transformer，仅基于注意力机制，完全放弃了循环和卷积。在两个机器翻译任务上的实验证明，这些模型在质量上优于其他模型，而且并行化效果更好，训练时间明显缩短。我们的模型在WMT 2014年英德翻译任务上获得28.4 BLEU的成绩，相比已有的最佳结果（包括集成模型），提高了超过2个BLEU。在WMT 2014年英法翻译任务上，我们的模型在单一模型状态下将BLEU得分提高到了41.8，经过了仅在八个GPU上进行了3.5天的训练，成本远低于现有文献中最佳模型的训练成本。我们还证明了Transformer在其他任务上的泛化能力，通过成功将其应用于英文成分解析，无论是使用大量还是有限的训练数据都能取得良好效果。
+2023-12-27 06:21:47.243 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：1 Introduction
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2023-12-27 06:22:34.288 | INFO     | translator.pdf_translator:translate_pdf:21 - 1引言
+循环神经网络，长短期记忆以及门控循环神经网络，在序列建模和转导问题中，如语言建模和机器翻译方面已经被确定为艺术水平的方法[13,7,35,2,5]。许多工作继续推动循环语言模型和编码器-解码器架构的边界[38,24,15]。
+循环模型通常是根据输入和输出序列的符号位置进行计算。将位置与计算时间步骤对齐，它们生成一个隐藏状态序列h，作为先前隐藏状态h和位置t的输入的函数。然而，这种顺序性质在训练示例内部无法并行化，这在较长的序列长度下变得关键，因为内存限制限制了跨示例的批处理。最近的研究通过因式分解技巧和条件计算[21,32]在计算效率方面取得了显著的改进，同时在后一种情况下提高了模型性能。然而，顺序计算的基本约束仍然存在。
+注意机制已成为引人注目的序列建模和转导模型的一个重要组成部分，它允许对依赖关系进行建模，而不考虑其在输入或输出序列中的距离。然而，除了少数情况[27]之外，这些注意机制通常与循环网络结合使用。
+在这项工作中，我们提出了变压器（Transformer），这是一种模型体系结构，它摒弃了循环性，而完全依赖于注意机制来绘制输入和输出之间的全局依赖关系。变压器可以实现更高的并行化，并在仅经过12小时在8个P100GPU上训练后，达到了翻译质量的最新水平。
+2背景
+减少顺序计算的目标还构成了ExtendedNeuralGPU [16]，ByteNet[18]和ConvS2S[9]的基础，它们都使用卷积神经网络作为基本构建块，为所有输入和输出位置同时计算隐藏表示。在这些模型中，从两个任意输入或输出位置之间相关信号所需的操作数量随着位置之间的距离增大而线性增长（对于ConvS2S）或对数增长（对于ByteNet），这使得学习远距离位置之间的依赖关系更加困难。在变压器中，这被减少为恒定数量的操作，尽管这会以平均注意权重的位置来降低效果分辨率，这种效果可以通过Multi-Head Attention来抵消，如第3.2节所述。
+自注意力，有时称为自内注意力，是一种关联同一序列中不同位置的注意机制，以计算序列的表示。自注意力已成功地应用于各种任务，包括阅读理解、抽象摘要、文本蕴含和学习任务无关的句子表示[4,27,28,22]。
+端到端内存网络是基于逐步关注机制而不是序列对齐重复的注意机制，已经在简单语言问答和语言建模任务上表现良好[34]。
+据我们所知，然而，变压器是第一个完全依赖于自注意力来计算输入和输出表示而不使用序列对齐的RNN或卷积的转导模型。在接下来的章节中，我们将描述变压器，阐明自注意力并讨论它相对于模型[17,18]和[9]的优势。
+3模型架构
+大多数竞争性神经序列转导模型具有编码器-解码器结构[5,2,35]。在这里，编码器将表示符号（x1, ..., xn）的输入序列映射到连续表示序列z = (z1, ..., zn)。给定z，解码器然后逐个元素地生成输出序列(y1, ..., ym)的符号。在每个步骤中，模型是自回归[10]的，当生成下一个符号时，它消耗先前生成的符号作为额外的输入。
+2023-12-27 06:22:34.288 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/attention is all you need.pdf
+2023-12-27 06:22:34.290 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/attention is all you need_translated.pdf
+2023-12-27 06:22:34.384 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/attention is all you need_translated.pdf
+2023-12-27 23:50:17.084 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Study on Carrier’ s Seaworthiness Obligation Under
+the Background of Revision of Maritime Law
+Lufan He
+Zhongnan University of Economics and Law
+*Corresponding author: tututori0419@gmail.com
+Abstract: The liability of the carrier plays a central role in transport law of goods by
+sea. The carrier's seaworthiness obligation is the most fundamental and important part
+among its three basic obligations. The specific content of the carrier's seaworthiness
+obligation is closely related to the interests of both the shipper and the carrier. With the
+changing positions of both parties and the development of shipbuilding and navigation
+technology, relevant regulations regarding the seaworthiness obligation should be
+adjusted accordingly to achieve a rebalance of the interests of both parties and meet
+the legislative requirements of the new maritime era. This article explores the
+development issues of the carrier's seaworthiness obligation in four parts. The first part
+briefly outlines the development process of the seaworthiness obligation and describes
+the existing scope and content of the seaworthiness obligation under standard system
+of China’s Maritime Law. The second part analyzes the provisions regarding the
+carrier's seaworthiness obligation from the perspective of “Maritime Code of the People’
+s Republic of China (Revision) (Exposure Draft)” (hereinafter referred to as Exposure
+Draft). The third part identifies the remaining issues and loopholes in the above
+provisions. Finally, the fourth part provides suggestions and prospects.
+Keywords: Carrier; Seaworthiness obligation; carriage of goods by sea
+1. Introduction
+As a party to international maritime cargo transportation contracts, the carrier has
+the obligation to ensure the seaworthiness of the vessel. This is known as the carrier's
+fundamental duty, the seaworthiness obligation. The seaworthiness obligation is an
+ancient institution in maritime law, which has witnessed the evolution of shipping
+economics and technology, as well as the gradual evolution of the balance of interests
+and dispute resolution between shipowners and cargo owners. The development of the
+seaworthiness obligation in Maritime Law signifies the constant exploration and
+practice of fairness, justice, and the balance of interests, reflecting the arduous journey
+of pursuing the values of maritime law.
+As a major trading and shipping nation, China needs to thoroughly understand and
+analyze the relevant content of the carrier's seaworthiness obligation in important
+international conventions governing maritime cargo transportation, in order to achieve
+sustained and stable development and ultimately become a maritime and trading
+1
+2023-12-27 23:50:17.156 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ powerhouse. At the same time, it is necessary to draw on valuable content, analyze the
+deficiencies in China's regulatory framework for the seaworthiness obligation, and
+propose effective suggestions based on the "People's Republic of China Maritime Law
+(Draft for Solicitation of Comments)" and the latest international rules. These
+suggestions aim to promote the improvement of China's regulatory framework for the
+seaworthiness obligation and facilitate the stable development of maritime trade.
+2. Overview of seaworthiness obligation
+Since the era of navigation, the seaworthiness obligation has been recognized as one
+of the fundamental obligations of the carrier and has always been a focus of attention
+in maritime law. It is part of the foundation of the carrier's liability under international
+maritime cargo transportation law. After the Hague Rules, the seaworthiness obligation
+became known as the primary duty of the carrier [1]. The following provides a brief
+overview of the development of the seaworthiness obligation and the seaworthiness
+obligation under regulatory framework in the China's Maritime Law.
+2.1 The development of seaworthiness obligation
+2.1.1 Origin of seaworthiness obligation
+The seaworthiness obligation originated during the prosperous period of European
+shipping and trade. During that time, various compilations of maritime customs and
+practices emerged, among which the “Oleron Customs Collection” and the “Consulate
+of the Sea” were the most representative. The “Oleron Customs Collection” stipulated
+the liability of the shipmaster and crew for breach of the seaworthiness obligation, while
+the “Consulate of the Sea” contained provisions on the shipowner’s obligation to
+properly load and protect the cargo of the cargo owner [2].
+The seaworthiness obligation at that time had two notable characteristics: first, it
+expanded its scope beyond just the safety of maritime navigation and began to focus on
+the fitness of the vessel and crew; second, the liability of the shipper (cargo owner) was
+significantly reduced, leading to the rupture of the interests of both parties. The
+seaworthiness obligation for shipmasters and crew gradually became more codified,
+evolving into the seaworthiness obligation in modern maritime law.
+2.1.2 Early development of seaworthiness obligation
+In the late 19th century, the British shipping industry flourished and became the
+center of world shipping. According to the British common law at that time, liner
+transportation belonged to the field of public transportation, and public carriers had to
+accept any goods delivered by anyone without the right to refuse transportation. In order
+to avoid this restriction, public carriers gradually began to include a large number of
+exemption clauses for compensation liability in bills of lading that represented liner
+transportation contracts, in order to avoid bearing compensation liability for the loss or
+damage of goods. Over time, these clauses became extremely, and the abuse of
+contractual freedom by carriers became widespread, seriously affecting the
+development of international shipping. This situation caused dissatisfaction in
+2
+2023-12-27 23:50:17.249 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ international shipping and gradually gave rise to the movement for standardizing bills
+of lading. Represented by the United States, many countries adopted various measures
+of resistance, and the most representative and far-reaching impact was the Hart's Law
+enacted by the United States in 1893. This law severely prohibited shipowners from
+arbitrarily reducing their own responsibilities and required shipowners to guarantee the
+seaworthiness for the entire duration of transportation, thereby increasing the
+shipowners' responsibilities.
+2.1.3 Seaworthiness obligation in the Hague Rules
+The Hague Rules improved the strict and absolute seaworthiness obligation that had
+long troubled carriers. It limited the time period in which carriers were liable for
+seaworthiness to before and at the time of departure. As long as carriers had taken “due
+diligence” measures, the “latent defects” that the vessel itself might have would not
+affect the determination of whether the carriers had fulfilled their seaworthiness
+obligation, and carriers would not be held liable. Under the Hague Rules, the
+relationship between vessel seaworthiness and carrier exemption clauses was also
+crucial. According to the rules, carriers must make the vessel seaworthy, fulfill their
+seaworthiness obligation, or even if they failed to fulfill their seaworthiness obligation,
+the infringement caused must not be causally related to the unseaworthiness of the
+vessel in order for carriers to enjoy exemption clauses. Even if carriers fail to fulfill
+their obligations of properly handling the cargo or operating on the proper route, it will
+not affect the implementation of the exemption clauses. Such provisions make the
+seaworthiness obligation a “primary obligation” for carriers under the Hague Rules.
+However, with the birth of the Hamburg Rules and the establishment of a regime of
+strict liability, this situation has changed.
+2.1.4 Seaworthiness obligation in the Hague Rules
+The Hamburg Rules readjusted the rights and obligations of carriers and shippers,
+and made more thorough revisions to the Hague Rules, with the most important sign
+being an increase in carrier liability and the establishment of a regime of strict liability
+[3]. Moreover, it also modified the provisions regarding the duration of carriers’
+seaworthiness obligation [4], specifically stating that carriers should bear the
+seaworthiness obligation “during the period of their control of the goods”. Compared
+to the Hague Rules, the seaworthiness obligation for carriers has been extended to the
+entire voyage. In addition, unlike the “due diligence” requirement of the Hague Rules
+and the Visby Rules, the Hamburg Rules require carriers to take “all necessary
+measures that can reasonably be demanded” to avoid loss or damage to the goods. The
+revised rules lengthen the duration of carriers’ seaworthiness obligation and increase
+their responsibilities. Developed countries representing the interests of shipowners have
+rarely signed or ratified this convention, and the convention has not truly taken effect
+or had an impact.
+2.1.5 Seaworthiness obligation in the Rotterdam Rules
+In the Rotterdam Rules, the provisions regarding the seaworthiness obligation
+explicitly state that the duration of the seaworthiness obligation includes not only the
+3
+2023-12-27 23:50:17.251 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Study on Carrier’ s Seaworthiness Obligation Under
+the Background of Revision of Maritime Law
+Lufan He
+Zhongnan University of Economics and Law
+*Corresponding author: tututori0419@gmail.com
+Abstract: The liability of the carrier plays a central role in transport law of goods by
+sea. The carrier's seaworthiness obligation is the most fundamental and important part
+among its three basic obligations. The specific content of the carrier's seaworthiness
+obligation is closely related to the interests of both the shipper and the carrier. With the
+changing positions of both parties and the development of shipbuilding and navigation
+technology, relevant regulations regarding the seaworthiness obligation should be
+adjusted accordingly to achieve a rebalance of the interests of both parties and meet
+the legislative requirements of the new maritime era. This article explores the
+development issues of the carrier's seaworthiness obligation in four parts. The first part
+briefly outlines the development process of the seaworthiness obligation and describes
+the existing scope and content of the seaworthiness obligation under standard system
+of China’s Maritime Law. The second part analyzes the provisions regarding the
+carrier's seaworthiness obligation from the perspective of “Maritime Code of the People’
+s Republic of China (Revision) (Exposure Draft)” (hereinafter referred to as Exposure
+Draft). The third part identifies the remaining issues and loopholes in the above
+provisions. Finally, the fourth part provides suggestions and prospects.
+Keywords: Carrier; Seaworthiness obligation; carriage of goods by sea
+1. Introduction
+As a party to international maritime cargo transportation contracts, the carrier has
+the obligation to ensure the seaworthiness of the vessel. This is known as the carrier's
+fundamental duty, the seaworthiness obligation. The seaworthiness obligation is an
+ancient institution in maritime law, which has witnessed the evolution of shipping
+economics and technology, as well as the gradual evolution of the balance of interests
+and dispute resolution between shipowners and cargo owners. The development of the
+seaworthiness obligation in Maritime Law signifies the constant exploration and
+practice of fairness, justice, and the balance of interests, reflecting the arduous journey
+of pursuing the values of maritime law.
+As a major trading and shipping nation, China needs to thoroughly understand and
+analyze the relevant content of the carrier's seaworthiness obligation in important
+international conventions governing maritime cargo transportation, in order to achieve
+sustained and stable development and ultimately become a maritime and trading
+1
+2023-12-27 23:50:38.828 | INFO     | translator.pdf_translator:translate_pdf:21 - 在《海商法》修订背景下载运人船舶的适航义务研究
+
+摘要：载运人的责任在海洋货物运输法中起着核心作用。适航义务是其三个基本义务中最基础、最重要的部分。载运人的适航义务的具体内容与货主和载运人的利益密切相关。随着双方立场的变化和船舶建造和航行技术的发展，有关适航义务的相关规定应相应调整，以实现双方利益的平衡，并满足新海洋时代的立法要求。本文从四个方面探讨了载运人的适航义务的发展问题。第一部分简要概述了适航义务的发展过程，并描述了中国《海商法》标准体系下适航义务的现有范围和内容。第二部分从《中华人民共和国海法(修订)暴露性稿》的角度分析了有关载运人的适航义务的规定。第三部分指出了上述规定中存在的问题和漏洞。最后，第四部分提出了建议和展望。
+
+关键词：载运人，适航义务，海洋货物运输
+
+1.引言
+
+作为国际海运货物运输合同的当事方，载运人有责任确保船舶的适航性。这被称为载运人的基本义务，即适航义务。适航义务是海商法中的一种古老制度，它见证了航运经济和技术的演变，以及船东和货主之间利益协调和争议解决的逐渐演变。适航义务在海商法中的发展，标志着对公平、正义和利益平衡的不断探索和实践，反映了海商法追求价值的艰苦旅程。
+
+作为一个重要的贸易和航运国家，中国需要全面了解和分析国际海运货物运输的重要国际公约中载运人适航义务的相关内容，以实现持续稳定的发展，并最终成为一个海洋和贸易强国。
+2023-12-27 23:50:38.829 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：powerhouse. At the same time, it is necessary to draw on valuable content, analyze the
+deficiencies in China's regulatory framework for the seaworthiness obligation, and
+propose effective suggestions based on the "People's Republic of China Maritime Law
+(Draft for Solicitation of Comments)" and the latest international rules. These
+suggestions aim to promote the improvement of China's regulatory framework for the
+seaworthiness obligation and facilitate the stable development of maritime trade.
+2. Overview of seaworthiness obligation
+Since the era of navigation, the seaworthiness obligation has been recognized as one
+of the fundamental obligations of the carrier and has always been a focus of attention
+in maritime law. It is part of the foundation of the carrier's liability under international
+maritime cargo transportation law. After the Hague Rules, the seaworthiness obligation
+became known as the primary duty of the carrier [1]. The following provides a brief
+overview of the development of the seaworthiness obligation and the seaworthiness
+obligation under regulatory framework in the China's Maritime Law.
+2.1 The development of seaworthiness obligation
+2.1.1 Origin of seaworthiness obligation
+The seaworthiness obligation originated during the prosperous period of European
+shipping and trade. During that time, various compilations of maritime customs and
+practices emerged, among which the “Oleron Customs Collection” and the “Consulate
+of the Sea” were the most representative. The “Oleron Customs Collection” stipulated
+the liability of the shipmaster and crew for breach of the seaworthiness obligation, while
+the “Consulate of the Sea” contained provisions on the shipowner’s obligation to
+properly load and protect the cargo of the cargo owner [2].
+The seaworthiness obligation at that time had two notable characteristics: first, it
+expanded its scope beyond just the safety of maritime navigation and began to focus on
+the fitness of the vessel and crew; second, the liability of the shipper (cargo owner) was
+significantly reduced, leading to the rupture of the interests of both parties. The
+seaworthiness obligation for shipmasters and crew gradually became more codified,
+evolving into the seaworthiness obligation in modern maritime law.
+2.1.2 Early development of seaworthiness obligation
+In the late 19th century, the British shipping industry flourished and became the
+center of world shipping. According to the British common law at that time, liner
+transportation belonged to the field of public transportation, and public carriers had to
+accept any goods delivered by anyone without the right to refuse transportation. In order
+to avoid this restriction, public carriers gradually began to include a large number of
+exemption clauses for compensation liability in bills of lading that represented liner
+transportation contracts, in order to avoid bearing compensation liability for the loss or
+damage of goods. Over time, these clauses became extremely, and the abuse of
+contractual freedom by carriers became widespread, seriously affecting the
+development of international shipping. This situation caused dissatisfaction in
+2
+2023-12-27 23:51:10.292 | INFO     | translator.pdf_translator:translate_pdf:21 - 中国的规制框架，中国海事法义务船舶的不足局限以及源于“中华人民共和国海事法意见征求稿”和最新国际规则，需要借鉴有价值的内容进行分析，并在此基础上提出有效的建议。这些建议旨在促进中国对船舶适航性义务的规制框架的改进，促进海上贸易的稳定发展。
+
+2. 船舶适航性义务概述
+自航海时代以来，船舶适航性义务被认为是承运人的基本义务之一，一直是海商法中的关注焦点。它是国际海上货物运输法下承运人责任的基础之一。在《海牙规则》之后，船舶适航性义务被称为承运人的首要责任[1]。以下简要概述了船舶适航性义务的发展以及中国海事法规制框架下的船舶适航性义务。
+
+2.1 船舶适航性义务的发展
+2.1.1 船舶适航性义务的起源
+船舶适航性义务起源于欧洲海运和贸易繁荣的时期。在那个时候，出现了各种编纂的海事习俗和实践，其中以“奥勒隆海关”和“海上领事馆”最具代表性。《奥勒隆海关》规定了船长和船员违反船舶适航性义务的责任，而《海上领事馆》则包含了有关船东适当装载和保护货物的义务的规定[2]。
+
+当时的船舶适航性义务具有两个显著特点：首先，它将适航性的范围扩大到船舶和船员的适宜性上，并专注于航海安全；其次，货主（货物所有人）的责任显著降低，导致双方利益的破裂。船长和船员的船舶适航性义务逐渐得到更加成文化的规范，演变成了现代海商法中的船舶适航性义务。
+
+2.1.2 船舶适航性义务的早期发展
+19世纪末，英国航运业蓬勃发展，成为世界航运的中心。根据当时的英国普通法，班轮运输属于公共运输范畴，公共承运人必须接受任何人交付的货物无权拒绝运输。为了避免这种限制，公共承运人逐渐在代表班轮运输合同的海运提单中纳入大量的免责条款，以避免承担货物损失或损坏的赔偿责任。随着时间的推移，这些条款变得极度复杂，承运人滥用契约自由现象普遍存在，严重影响国际航运的发展。这种情况引起了人们的不满。
+2023-12-27 23:51:10.293 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：international shipping and gradually gave rise to the movement for standardizing bills
+of lading. Represented by the United States, many countries adopted various measures
+of resistance, and the most representative and far-reaching impact was the Hart's Law
+enacted by the United States in 1893. This law severely prohibited shipowners from
+arbitrarily reducing their own responsibilities and required shipowners to guarantee the
+seaworthiness for the entire duration of transportation, thereby increasing the
+shipowners' responsibilities.
+2.1.3 Seaworthiness obligation in the Hague Rules
+The Hague Rules improved the strict and absolute seaworthiness obligation that had
+long troubled carriers. It limited the time period in which carriers were liable for
+seaworthiness to before and at the time of departure. As long as carriers had taken “due
+diligence” measures, the “latent defects” that the vessel itself might have would not
+affect the determination of whether the carriers had fulfilled their seaworthiness
+obligation, and carriers would not be held liable. Under the Hague Rules, the
+relationship between vessel seaworthiness and carrier exemption clauses was also
+crucial. According to the rules, carriers must make the vessel seaworthy, fulfill their
+seaworthiness obligation, or even if they failed to fulfill their seaworthiness obligation,
+the infringement caused must not be causally related to the unseaworthiness of the
+vessel in order for carriers to enjoy exemption clauses. Even if carriers fail to fulfill
+their obligations of properly handling the cargo or operating on the proper route, it will
+not affect the implementation of the exemption clauses. Such provisions make the
+seaworthiness obligation a “primary obligation” for carriers under the Hague Rules.
+However, with the birth of the Hamburg Rules and the establishment of a regime of
+strict liability, this situation has changed.
+2.1.4 Seaworthiness obligation in the Hague Rules
+The Hamburg Rules readjusted the rights and obligations of carriers and shippers,
+and made more thorough revisions to the Hague Rules, with the most important sign
+being an increase in carrier liability and the establishment of a regime of strict liability
+[3]. Moreover, it also modified the provisions regarding the duration of carriers’
+seaworthiness obligation [4], specifically stating that carriers should bear the
+seaworthiness obligation “during the period of their control of the goods”. Compared
+to the Hague Rules, the seaworthiness obligation for carriers has been extended to the
+entire voyage. In addition, unlike the “due diligence” requirement of the Hague Rules
+and the Visby Rules, the Hamburg Rules require carriers to take “all necessary
+measures that can reasonably be demanded” to avoid loss or damage to the goods. The
+revised rules lengthen the duration of carriers’ seaworthiness obligation and increase
+their responsibilities. Developed countries representing the interests of shipowners have
+rarely signed or ratified this convention, and the convention has not truly taken effect
+or had an impact.
+2.1.5 Seaworthiness obligation in the Rotterdam Rules
+In the Rotterdam Rules, the provisions regarding the seaworthiness obligation
+explicitly state that the duration of the seaworthiness obligation includes not only the
+3
+2023-12-27 23:51:44.410 | INFO     | translator.pdf_translator:translate_pdf:21 - 国际航运逐渐催生出统一提单运动。许多国家，包括美国在内，采取了各种抵制措施，其中最具代表性和影响最深远的是美国于1893年颁布的哈特法（Hart's Law）。这项法律严禁船东任意减少自身责任，并要求船东在整个运输期间保证船舶适航性，从而增加了船东的责任。
+
+《海牙规则》改进了长期困扰船东的严格和绝对的适航性义务。它将船东对适航性的责任仅限于离港前和离港时。只要船东采取了“适当的谨慎措施”，船舶本身可能存在的“隐性缺陷”就不会影响判断船东是否履行了适航性义务，船东将不承担责任。根据《海牙规则》，船舶适航性与船东免责条款之间的关系也至关重要。根据规则，船东必须使船舶适航，履行适航性义务，即使船东未能履行适航性义务，所造成的侵权行为也不能与船舶的不适航性有因果关系，船东才能享受免责条款。即使船东未能履行妥善处理货物或沿正确航线操作的义务，也不会影响免责条款的实施。这些规定使得适航性义务成为《海牙规则》下船东的“首要义务”。然而，随着汉堡规则的诞生和建立严格责任制度，情况发生了变化。
+
+汉堡规则调整了承运人和发货人的权利和义务，并对《海牙规则》进行了更彻底的修订，最重要的标志是增加了承运人的责任，并建立了严格责任制度。此外，它还修改了有关承运人适航性义务期限的规定，明确规定承运人应在其对货物的控制期间承担适航性义务。与《海牙规则》和维斯比规则中的“谨慎注意”要求不同，汉堡规则要求承运人采取“合理可要求的一切必要措施”以避免货物损失或损坏。修订后的规则延长了承运人的适航性义务期限，并增加了其责任。代表船东利益的发达国家很少签署或批准这项公约，该公约实际上尚未生效或产生影响。
+
+在《鹿特丹规则》中，有关适航性义务的规定明确规定，适航性义务的期限不仅包括离港前和离港时，还包括航行结束前。与《海牙规则》的“适当谨慎”要求和维斯比规则不同的是，鹿特丹规则要求承运人采取“合理可要求的一切必要措施”以避免货物损失或损坏。修订后的规则延长了承运人的适航性义务期限，并增加了其责任。代表船东利益的发达国家很少签署或批准这项公约，该公约实际上尚未生效或产生影响。
+2023-12-27 23:51:44.411 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/study.pdf
+2023-12-27 23:51:44.412 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/study_translated.pdf
+2023-12-27 23:51:44.487 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/study_translated.pdf

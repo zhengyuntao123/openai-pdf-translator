@@ -12,7 +12,6 @@ from model import GLMModel, OpenAIModel
 from translator import PDFTranslator
 
 # python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format pdf
-# python ai_translator/main.py --model_type OpenAIModel --openai_api_key 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 --file_format pdf
 
 if __name__ == "__main__":
     argument_parser = ArgumentParser()

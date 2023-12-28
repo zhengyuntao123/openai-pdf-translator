@@ -1,1 +1,0 @@
-# openai-pdf-translator

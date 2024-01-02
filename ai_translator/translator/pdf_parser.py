@@ -27,7 +27,7 @@ class PDFParser:
 
                 # Store the original text content
                 # 这里并没有保持原始布局
-                raw_text = pdf_page.extract_text()
+                raw_text = pdf_page.extract_text(layout=True)
                 tables = pdf_page.extract_tables()
 
                 # Remove each cell's content from the original text
@@ -43,9 +43,9 @@ class PDFParser:
                 if raw_text:
                     # Remove empty lines and leading/trailing whitespaces
                     raw_text_lines = raw_text.splitlines()
-                    cleaned_raw_text_lines = [line.strip() for line in raw_text_lines if line.strip()]
+                    cleaned_raw_text_lines = [line.strip() for line in raw_text_lines]
+                    #必须合并在一起去问chatgpt翻译，这个时候不能拆开一个一个去翻译
                     cleaned_raw_text = "\n".join(cleaned_raw_text_lines)
-
                     # content类型是ContentType.TEXT
                     text_content = Content(content_type=ContentType.TEXT, original=cleaned_raw_text)
                     page.add_content(text_content)

@@ -47,9 +47,16 @@ class Writer:
                 if content.status:
                     if content.content_type == ContentType.TEXT:
                         # Add translated text to the PDF
+
                         text = content.translation
-                        para = Paragraph(text, simsun_style)
-                        story.append(para)
+                        #要把翻译内容拆开，一个一个去写
+                        split_texts=text.splitlines()
+                        for split_text in split_texts:
+                            if (split_text):
+                                para = Paragraph(split_text, simsun_style)
+                                story.append(para)
+                            else:
+                                story.append(Spacer(1, 12))
 
                     elif content.content_type == ContentType.TABLE:
                         # Add table to the PDF
@@ -90,7 +97,12 @@ class Writer:
                         if content.content_type == ContentType.TEXT:
                             # Add translated text to the Markdown file
                             text = content.translation
-                            output_file.write(text + '\n\n')
+                            split_texts = text.splitlines()
+                            for split_text in split_texts:
+                                if split_text:
+                                    output_file.write(split_text + '\n\n')
+                                else:
+                                    output_file.write('\n\n')
 
                         elif content.content_type == ContentType.TABLE:
                             # Add table to the Markdown file

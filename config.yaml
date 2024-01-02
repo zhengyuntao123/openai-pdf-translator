@@ -7,5 +7,5 @@ GLMModel:
   timeout: 300
 
 common:
-  book: "tests/study.pdf"
+  book: "tests/attention is all you need.pdf"
   file_format: "markdown"

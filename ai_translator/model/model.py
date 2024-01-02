@@ -2,7 +2,7 @@ from book import ContentType
 
 class Model:
     def make_text_prompt(self, text: str, target_language: str) -> str:
-        return f"翻译为{target_language}：{text}"
+        return f"翻译为{target_language},请保留原本的格式(空格,换行符)：{text}"
 
     def make_table_prompt(self, table: str, target_language: str) -> str:
         return f"翻译为{target_language}，保持间距（空格，分隔符），以表格形式返回：\n{table}"

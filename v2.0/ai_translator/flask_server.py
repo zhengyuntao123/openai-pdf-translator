@@ -1,5 +1,6 @@
 import sys
 import os
+import time
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -11,9 +12,12 @@ app = Flask(__name__)
 
 TEMP_FILE_DIR = "flask_temps/"
 
+# 装饰器用于设计api的URL
 @app.route('/translation', methods=['POST'])
 def translation():
     try:
+        # python request库中已经实现了处理文件流
+        print(os.getcwd())
         input_file = request.files['input_file']
         source_language = request.form.get('source_language', 'English')
         target_language = request.form.get('target_language', 'Chinese')
@@ -25,14 +29,15 @@ def translation():
             # # 创建临时文件
             input_file_path = TEMP_FILE_DIR+input_file.filename
             LOG.debug(f"[input_file_path]\n{input_file_path}")
-
+            # 用save方法将文件流储存为文件, input_file_path是输入文件存储的临时目录
             input_file.save(input_file_path)
-
             # 调用翻译函数
             output_file_path = Translator.translate_pdf(
                 input_file=input_file_path,
+                output_file_format=config.output_file_format,
                 source_language=source_language,
-                target_language=target_language)
+                target_language=target_language,
+                pages=1)
             
             # 移除临时文件
             # os.remove(input_file_path)
@@ -57,6 +62,7 @@ def initialize_translator():
     args = argument_parser.parse_arguments()
 
     # 初始化配置单例
+    global config
     config = TranslationConfig()
     config.initialize(args)    
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法

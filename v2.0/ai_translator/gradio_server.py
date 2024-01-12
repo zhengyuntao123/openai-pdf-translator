@@ -10,9 +10,9 @@ from translator import PDFTranslator, TranslationConfig
 
 def translation(input_file, source_language, target_language):
     LOG.debug(f"[翻译任务]\n源文件: {input_file.name}\n源语言: {source_language}\n目标语言: {target_language}")
-
+    # translate_pdf的返回值是一个路径
     output_file_path = Translator.translate_pdf(
-        input_file.name, source_language=source_language, target_language=target_language)
+        input_file.name, config.output_file_format, source_language=source_language, target_language=target_language,pages=1)
 
     return output_file_path
 
@@ -23,6 +23,7 @@ def launch_gradio():
         title="OpenAI-Translator v2.0(PDF 电子书翻译工具)",
         inputs=[
             gr.File(label="上传PDF文件"),
+            # placeholder是占位符，value是默认值
             gr.Textbox(label="源语言（默认：英文）", placeholder="English", value="English"),
             gr.Textbox(label="目标语言（默认：中文）", placeholder="Chinese", value="Chinese")
         ],
@@ -40,9 +41,11 @@ def initialize_translator():
     args = argument_parser.parse_arguments()
 
     # 初始化配置单例
+    global config
     config = TranslationConfig()
     config.initialize(args)    
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
+    # 需要将Translator定义为全局变量
     global Translator
     Translator = PDFTranslator(config.model_name)
 

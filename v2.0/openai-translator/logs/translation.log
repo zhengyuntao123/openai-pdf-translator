@@ -1,0 +1,2487 @@
+2024-01-11 22:40:08.937 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-11 22:40:08.939 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 22:40:22.839 | DEBUG    | book.content:set_translation:54 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 22:40:22.843 | DEBUG    | book.content:set_translation:63 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2024-01-11 22:40:22.843 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2024-01-11 22:40:22.843 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: tests/test_translated.md
+2024-01-11 22:40:22.844 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: tests/test_translated.md
+2024-01-11 22:50:17.841 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-11 22:50:17.844 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 22:50:31.690 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 22:50:31.693 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2024-01-11 22:50:31.694 | DEBUG    | translator.writer:save_translated_book:18 - pdf
+2024-01-11 22:50:31.694 | INFO     | translator.writer:_save_translated_book_pdf:37 - 开始导出: tests/test_translated.pdf
+2024-01-11 22:50:31.763 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-11 22:59:44.730 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ The Old Man and the Sea Asiaing.com
+The Old Man and the Sea
+By Ernest Hemingway
+www.Asiaing.com
+To Charlie Shribner
+And
+To Max Perkins
+He was an old man who fished alone in a skiff in the Gulf Stream and he had gone
+eighty-four days now without taking a fish. In the first forty days a boy had been with him.
+But after forty days without a fish the boy’s parents had told him that the old man was
+now definitely and finally salao, which is the worst form of unlucky, and the boy had gone
+at their orders in another boat which caught three good fish the first week. It made the
+boy sad to see the old man come in each day with his skiff empty and he always went
+down to help him carry either the coiled lines or the gaff and harpoon and the sail that
+was furled around the mast. The sail was patched with flour sacks and, furled, it looked
+like the flag of permanent defeat.
+The old man was thin and gaunt with deep wrinkles in the back of his neck. The
+brown blotches of the benevolent skin cancer the sun brings from its [9] reflection on the
+tropic sea were on his cheeks. The blotches ran well down the sides of his face and his
+hands had the deep-creased scars from handling heavy fish on the cords. But none of
+these scars were fresh. They were as old as erosions in a fishless desert.
+Everything about him was old except his eyes and they were the same color as the
+sea and were cheerful and undefeated.
+“Santiago,” the boy said to him as they climbed the bank from where the skiff was
+hauled up. “I could go with you again. We’ve made some money.”
+The old man had taught the boy to fish and the boy loved him.
+“No,” the old man said. “You’re with a lucky boat. Stay with them.”
+“But remember how you went eighty-seven days without fish and then we caught big
+ones every day for three weeks.”
+- 1 -
+2024-01-11 23:00:15.050 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:00:15.050 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/The_Old_Man_of_the_Sea_translated.pdf
+2024-01-11 23:00:15.101 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/The_Old_Man_of_the_Sea_translated.pdf
+2024-01-11 23:11:23.746 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ The Old Man and the Sea                              Asiaing.com
+The    Old   Man      and    the   Sea
+By   Ernest      Hemingway
+www.Asiaing.com
+To Charlie Shribner
+And
+To Max  Perkins
+He was an old man who fished alone in a skiff in the Gulf Stream and he had gone
+eighty-four days now without taking a fish. In the first forty days a boy had been with him.
+But after forty days without a fish the boy’s parents had told him that the old man was
+now definitely and finally salao, which is the worst form of unlucky, and the boy had gone
+at their orders in another boat which caught three good fish the first week. It made the
+boy sad to see the old man come in each day with his skiff empty and he always went
+down to help him carry either the coiled lines or the gaff and harpoon and the sail that
+was furled around the mast. The sail was patched with flour sacks and, furled, it looked
+like the flag of permanent defeat.
+The old man was thin and gaunt with deep wrinkles in the back of his neck. The
+brown blotches of the benevolent skin cancer the sun brings from its [9] reflection on the
+tropic sea were on his cheeks. The blotches ran well down the sides of his face and his
+hands had the deep-creased scars from handling heavy fish on the cords. But none of
+these scars were fresh. They were as old as erosions in a fishless desert.
+Everything about him was old except his eyes and they were the same color as the
+sea and were cheerful and undefeated.
+“Santiago,” the boy said to him as they climbed the bank from where the skiff was
+hauled up. “I could go with you again. We’ve made some money.”
+The old man had taught the boy to fish and the boy loved him.
+“No,” the old man said. “You’re with a lucky boat. Stay with them.”
+“But remember how you went eighty-seven days without fish and then we caught big
+ones every day for three weeks.”
+- 1 -
+2024-01-11 23:11:49.947 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:11:49.947 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/The_Old_Man_of_the_Sea_translated.pdf
+2024-01-11 23:11:50.007 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/The_Old_Man_of_the_Sea_translated.pdf
+2024-01-11 23:12:44.343 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ Test    Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text  testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table  Testing
+2024-01-11 23:12:44.345 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 23:12:57.641 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格 (美元)] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 23:12:57.645 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格 (美元)
+0   苹果  红色     1.2
+1   香蕉  黄色     0.5
+2   橙子  橙色     0.8
+3   草莓  红色     2.5
+4   蓝莓  蓝色     3.0
+5  猕猴桃  绿色     1.0
+6   芒果  橙色     1.5
+7   葡萄  紫色    2.00
+2024-01-11 23:12:57.645 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:12:57.646 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/test_translated.pdf
+2024-01-11 23:12:57.697 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-11 23:15:17.021 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-11 23:15:17.023 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 23:15:30.597 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格 (美元)] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 23:15:30.600 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格 (美元)
+0   苹果  红色     1.2
+1   香蕉  黄色     0.5
+2   橙子  橙色     0.8
+3   草莓  红色     2.5
+4   蓝莓  蓝色     3.0
+5  猕猴桃  绿色     1.0
+6   芒果  橙色     1.5
+7   葡萄  紫色    2.00
+2024-01-11 23:15:30.601 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:15:30.601 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/test_translated.pdf
+2024-01-11 23:15:30.656 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-11 23:17:15.600 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-11 23:17:15.602 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 23:17:34.898 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格 (美元)] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 23:17:34.900 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格 (美元)
+0   苹果  红色     1.2
+1   香蕉  黄色     0.5
+2   橙子  橙色     0.8
+3   草莓  红色     2.5
+4   蓝莓  蓝色     3.0
+5  猕猴桃  绿色     1.0
+6   芒果  橙色     1.5
+7   葡萄  紫色    2.00
+2024-01-11 23:17:34.900 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:17:34.900 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/test_translated.pdf
+2024-01-11 23:17:34.940 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-11 23:18:18.029 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-11 23:18:18.032 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-11 23:18:32.202 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格 (美元)] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-11 23:18:32.206 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格 (美元)
+0   苹果  红色     1.2
+1   香蕉  黄色     0.5
+2   橙子  橙色     0.8
+3   草莓  红色     2.5
+4   蓝莓  蓝色     3.0
+5  猕猴桃  绿色     1.0
+6   芒果  橙色     1.5
+7   葡萄  紫色    2.00
+2024-01-11 23:18:32.206 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-11 23:18:32.207 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/test_translated.md
+2024-01-11 23:18:32.207 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.md
+2024-01-11 23:20:52.061 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:20:52.130 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:22:08.549 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-11 23:22:08.549 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/attention is all you need_translated.md
+2024-01-11 23:22:08.550 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.md
+2024-01-11 23:22:32.131 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:22:32.199 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:23:48.803 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:23:48.803 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-11 23:23:48.926 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf
+2024-01-11 23:27:27.280 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:29:09.758 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:30:30.765 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:30:30.766 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-11 23:31:36.602 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf
+2024-01-11 23:31:47.541 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:31:47.871 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:32:58.885 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:32:59.202 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:34:16.811 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:34:16.812 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-11 23:37:03.455 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:56:44.744 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:56:44.812 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-11 23:58:03.610 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-11 23:58:03.610 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-11 23:58:03.731 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf
+2024-01-11 23:59:47.241 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-11 23:59:47.308 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:00:02.488 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:00:02.557 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:01:23.299 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-12 00:01:23.300 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-12 00:01:23.418 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf
+2024-01-12 00:02:12.770 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:02:12.838 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:02:40.720 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:02:40.786 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:04:05.283 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-12 00:04:05.283 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-12 00:04:05.394 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf
+2024-01-12 00:04:37.691 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:04:37.760 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:06:02.803 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-12 00:06:02.804 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/attention is all you need_translated.md
+2024-01-12 00:06:02.804 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.md
+2024-01-12 00:07:36.655 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-12 00:07:36.657 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-12 00:07:49.863 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格（美元）] 
+[苹果, 红色, 1.20] 
+[香蕉, 黄色, 0.50] 
+[橙子, 橙色, 0.80] 
+[草莓, 红色, 2.50] 
+[蓝莓, 蓝色, 3.00] 
+[猕猴桃, 绿色, 1.00] 
+[芒果, 橙色, 1.50] 
+[葡萄, 紫色, 2.00]
+2024-01-12 00:07:49.866 | DEBUG    | book.content:set_translation:64 - [translated_df]
+     水果  颜色 价格（美元）
+0   [苹果  红色    1.2
+1   [香蕉  黄色    0.5
+2   [橙子  橙色    0.8
+3   [草莓  红色    2.5
+4   [蓝莓  蓝色    3.0
+5  [猕猴桃  绿色    1.0
+6   [芒果  橙色    1.5
+7   [葡萄  紫色   2.00
+2024-01-12 00:07:49.867 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-12 00:07:49.867 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/test_translated.md
+2024-01-12 00:07:49.867 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.md
+2024-01-12 00:08:08.995 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-12 00:08:08.998 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-12 00:08:22.881 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格（美元）] 
+[苹果, 红色, 1.20] 
+[香蕉, 黄色, 0.50] 
+[橙子, 橙色, 0.80] 
+[草莓, 红色, 2.50] 
+[蓝莓, 蓝色, 3.00] 
+[猕猴桃, 绿色, 1.00] 
+[芒果, 橙色, 1.50] 
+[葡萄, 紫色, 2.00]
+2024-01-12 00:08:22.885 | DEBUG    | book.content:set_translation:64 - [translated_df]
+     水果  颜色 价格（美元）
+0   [苹果  红色    1.2
+1   [香蕉  黄色    0.5
+2   [橙子  橙色    0.8
+3   [草莓  红色    2.5
+4   [蓝莓  蓝色    3.0
+5  [猕猴桃  绿色    1.0
+6   [芒果  橙色    1.5
+7   [葡萄  紫色   2.00
+2024-01-12 00:08:22.885 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-12 00:08:22.885 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/test_translated.pdf
+2024-01-12 00:08:22.942 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-12 00:10:06.876 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-12 00:10:06.879 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-12 00:10:22.394 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-12 00:10:22.398 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2024-01-12 00:10:22.398 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-12 00:10:22.399 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/test_translated.pdf
+2024-01-12 00:10:22.446 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.pdf
+2024-01-12 00:10:45.731 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-12 00:10:45.733 | DEBUG    | translator.pdf_parser:parse_pdf:55 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-12 00:10:59.586 | DEBUG    | book.content:set_translation:55 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2024-01-12 00:10:59.588 | DEBUG    | book.content:set_translation:64 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2024-01-12 00:10:59.588 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-12 00:10:59.588 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/test_translated.md
+2024-01-12 00:10:59.588 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/test_translated.md
+2024-01-12 00:11:31.231 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:11:31.298 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:12:50.979 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2024-01-12 00:12:50.979 | INFO     | translator.writer:_save_translated_book_markdown:98 - 开始导出: tests/attention is all you need_translated.md
+2024-01-12 00:12:50.980 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.md
+2024-01-12 00:13:34.702 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-12 00:13:34.770 | DEBUG    | translator.pdf_parser:parse_pdf:47 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-12 00:14:54.706 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2024-01-12 00:14:54.706 | INFO     | translator.writer:_save_translated_book_pdf:39 - 开始导出: tests/attention is all you need_translated.pdf
+2024-01-12 00:14:54.812 | INFO     | translator.writer:save_translated_book:29 - 翻译完成，文件保存至: tests/attention is all you need_translated.pdf

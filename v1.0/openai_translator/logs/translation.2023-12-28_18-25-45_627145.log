@@ -1,0 +1,278 @@
+2023-12-28 18:25:45.624 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Study on Carrier’ s Seaworthiness Obligation Under
+the Background of Revision of Maritime Law
+Lufan He
+Zhongnan University of Economics and Law
+*Corresponding author: tututori0419@gmail.com
+Abstract: The liability of the carrier plays a central role in transport law of goods by
+sea. The carrier's seaworthiness obligation is the most fundamental and important part
+among its three basic obligations. The specific content of the carrier's seaworthiness
+obligation is closely related to the interests of both the shipper and the carrier. With the
+changing positions of both parties and the development of shipbuilding and navigation
+technology, relevant regulations regarding the seaworthiness obligation should be
+adjusted accordingly to achieve a rebalance of the interests of both parties and meet
+the legislative requirements of the new maritime era. This article explores the
+development issues of the carrier's seaworthiness obligation in four parts. The first part
+briefly outlines the development process of the seaworthiness obligation and describes
+the existing scope and content of the seaworthiness obligation under standard system
+of China’s Maritime Law. The second part analyzes the provisions regarding the
+carrier's seaworthiness obligation from the perspective of “Maritime Code of the People’
+s Republic of China (Revision) (Exposure Draft)” (hereinafter referred to as Exposure
+Draft). The third part identifies the remaining issues and loopholes in the above
+provisions. Finally, the fourth part provides suggestions and prospects.
+Keywords: Carrier; Seaworthiness obligation; carriage of goods by sea
+1. Introduction
+As a party to international maritime cargo transportation contracts, the carrier has
+the obligation to ensure the seaworthiness of the vessel. This is known as the carrier's
+fundamental duty, the seaworthiness obligation. The seaworthiness obligation is an
+ancient institution in maritime law, which has witnessed the evolution of shipping
+economics and technology, as well as the gradual evolution of the balance of interests
+and dispute resolution between shipowners and cargo owners. The development of the
+seaworthiness obligation in Maritime Law signifies the constant exploration and
+practice of fairness, justice, and the balance of interests, reflecting the arduous journey
+of pursuing the values of maritime law.
+As a major trading and shipping nation, China needs to thoroughly understand and
+analyze the relevant content of the carrier's seaworthiness obligation in important
+international conventions governing maritime cargo transportation, in order to achieve
+sustained and stable development and ultimately become a maritime and trading
+1
+2023-12-28 18:25:45.701 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ powerhouse. At the same time, it is necessary to draw on valuable content, analyze the
+deficiencies in China's regulatory framework for the seaworthiness obligation, and
+propose effective suggestions based on the "People's Republic of China Maritime Law
+(Draft for Solicitation of Comments)" and the latest international rules. These
+suggestions aim to promote the improvement of China's regulatory framework for the
+seaworthiness obligation and facilitate the stable development of maritime trade.
+2. Overview of seaworthiness obligation
+Since the era of navigation, the seaworthiness obligation has been recognized as one
+of the fundamental obligations of the carrier and has always been a focus of attention
+in maritime law. It is part of the foundation of the carrier's liability under international
+maritime cargo transportation law. After the Hague Rules, the seaworthiness obligation
+became known as the primary duty of the carrier [1]. The following provides a brief
+overview of the development of the seaworthiness obligation and the seaworthiness
+obligation under regulatory framework in the China's Maritime Law.
+2.1 The development of seaworthiness obligation
+2.1.1 Origin of seaworthiness obligation
+The seaworthiness obligation originated during the prosperous period of European
+shipping and trade. During that time, various compilations of maritime customs and
+practices emerged, among which the “Oleron Customs Collection” and the “Consulate
+of the Sea” were the most representative. The “Oleron Customs Collection” stipulated
+the liability of the shipmaster and crew for breach of the seaworthiness obligation, while
+the “Consulate of the Sea” contained provisions on the shipowner’s obligation to
+properly load and protect the cargo of the cargo owner [2].
+The seaworthiness obligation at that time had two notable characteristics: first, it
+expanded its scope beyond just the safety of maritime navigation and began to focus on
+the fitness of the vessel and crew; second, the liability of the shipper (cargo owner) was
+significantly reduced, leading to the rupture of the interests of both parties. The
+seaworthiness obligation for shipmasters and crew gradually became more codified,
+evolving into the seaworthiness obligation in modern maritime law.
+2.1.2 Early development of seaworthiness obligation
+In the late 19th century, the British shipping industry flourished and became the
+center of world shipping. According to the British common law at that time, liner
+transportation belonged to the field of public transportation, and public carriers had to
+accept any goods delivered by anyone without the right to refuse transportation. In order
+to avoid this restriction, public carriers gradually began to include a large number of
+exemption clauses for compensation liability in bills of lading that represented liner
+transportation contracts, in order to avoid bearing compensation liability for the loss or
+damage of goods. Over time, these clauses became extremely, and the abuse of
+contractual freedom by carriers became widespread, seriously affecting the
+development of international shipping. This situation caused dissatisfaction in
+2
+2023-12-28 18:25:45.782 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ international shipping and gradually gave rise to the movement for standardizing bills
+of lading. Represented by the United States, many countries adopted various measures
+of resistance, and the most representative and far-reaching impact was the Hart's Law
+enacted by the United States in 1893. This law severely prohibited shipowners from
+arbitrarily reducing their own responsibilities and required shipowners to guarantee the
+seaworthiness for the entire duration of transportation, thereby increasing the
+shipowners' responsibilities.
+2.1.3 Seaworthiness obligation in the Hague Rules
+The Hague Rules improved the strict and absolute seaworthiness obligation that had
+long troubled carriers. It limited the time period in which carriers were liable for
+seaworthiness to before and at the time of departure. As long as carriers had taken “due
+diligence” measures, the “latent defects” that the vessel itself might have would not
+affect the determination of whether the carriers had fulfilled their seaworthiness
+obligation, and carriers would not be held liable. Under the Hague Rules, the
+relationship between vessel seaworthiness and carrier exemption clauses was also
+crucial. According to the rules, carriers must make the vessel seaworthy, fulfill their
+seaworthiness obligation, or even if they failed to fulfill their seaworthiness obligation,
+the infringement caused must not be causally related to the unseaworthiness of the
+vessel in order for carriers to enjoy exemption clauses. Even if carriers fail to fulfill
+their obligations of properly handling the cargo or operating on the proper route, it will
+not affect the implementation of the exemption clauses. Such provisions make the
+seaworthiness obligation a “primary obligation” for carriers under the Hague Rules.
+However, with the birth of the Hamburg Rules and the establishment of a regime of
+strict liability, this situation has changed.
+2.1.4 Seaworthiness obligation in the Hague Rules
+The Hamburg Rules readjusted the rights and obligations of carriers and shippers,
+and made more thorough revisions to the Hague Rules, with the most important sign
+being an increase in carrier liability and the establishment of a regime of strict liability
+[3]. Moreover, it also modified the provisions regarding the duration of carriers’
+seaworthiness obligation [4], specifically stating that carriers should bear the
+seaworthiness obligation “during the period of their control of the goods”. Compared
+to the Hague Rules, the seaworthiness obligation for carriers has been extended to the
+entire voyage. In addition, unlike the “due diligence” requirement of the Hague Rules
+and the Visby Rules, the Hamburg Rules require carriers to take “all necessary
+measures that can reasonably be demanded” to avoid loss or damage to the goods. The
+revised rules lengthen the duration of carriers’ seaworthiness obligation and increase
+their responsibilities. Developed countries representing the interests of shipowners have
+rarely signed or ratified this convention, and the convention has not truly taken effect
+or had an impact.
+2.1.5 Seaworthiness obligation in the Rotterdam Rules
+In the Rotterdam Rules, the provisions regarding the seaworthiness obligation
+explicitly state that the duration of the seaworthiness obligation includes not only the
+3
+2023-12-28 18:25:45.784 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Study on Carrier’ s Seaworthiness Obligation Under
+the Background of Revision of Maritime Law
+Lufan He
+Zhongnan University of Economics and Law
+*Corresponding author: tututori0419@gmail.com
+Abstract: The liability of the carrier plays a central role in transport law of goods by
+sea. The carrier's seaworthiness obligation is the most fundamental and important part
+among its three basic obligations. The specific content of the carrier's seaworthiness
+obligation is closely related to the interests of both the shipper and the carrier. With the
+changing positions of both parties and the development of shipbuilding and navigation
+technology, relevant regulations regarding the seaworthiness obligation should be
+adjusted accordingly to achieve a rebalance of the interests of both parties and meet
+the legislative requirements of the new maritime era. This article explores the
+development issues of the carrier's seaworthiness obligation in four parts. The first part
+briefly outlines the development process of the seaworthiness obligation and describes
+the existing scope and content of the seaworthiness obligation under standard system
+of China’s Maritime Law. The second part analyzes the provisions regarding the
+carrier's seaworthiness obligation from the perspective of “Maritime Code of the People’
+s Republic of China (Revision) (Exposure Draft)” (hereinafter referred to as Exposure
+Draft). The third part identifies the remaining issues and loopholes in the above
+provisions. Finally, the fourth part provides suggestions and prospects.
+Keywords: Carrier; Seaworthiness obligation; carriage of goods by sea
+1. Introduction
+As a party to international maritime cargo transportation contracts, the carrier has
+the obligation to ensure the seaworthiness of the vessel. This is known as the carrier's
+fundamental duty, the seaworthiness obligation. The seaworthiness obligation is an
+ancient institution in maritime law, which has witnessed the evolution of shipping
+economics and technology, as well as the gradual evolution of the balance of interests
+and dispute resolution between shipowners and cargo owners. The development of the
+seaworthiness obligation in Maritime Law signifies the constant exploration and
+practice of fairness, justice, and the balance of interests, reflecting the arduous journey
+of pursuing the values of maritime law.
+As a major trading and shipping nation, China needs to thoroughly understand and
+analyze the relevant content of the carrier's seaworthiness obligation in important
+international conventions governing maritime cargo transportation, in order to achieve
+sustained and stable development and ultimately become a maritime and trading
+1
+2023-12-28 18:26:04.279 | INFO     | translator.pdf_translator:translate_pdf:21 - 海事法修订背景下船舶承运人海洋适航性义务的研究
+
+摘要：承运人的责任在海上货物运输法中起到了重要的作用。船舶的适航性义务是其三项基本义务中最基础和重要的部分。船舶适航性义务的具体内容与托运人和承运人的利益密切相关。随着双方地位的变化以及造船和航海技术的发展，应相应调整有关适航性义务的相关规定，以实现双方利益的再平衡，并满足新的海事时代的立法要求。本文共分四部分探讨了船舶适航性义务的发展问题。第一部分简要概述了适航性义务的发展过程，并描述了我国海事法标准体系下适航性义务的现行范围和内容。第二部分从《中华人民共和国海商法（修订）（征求意见稿）》（以下简称征求意见稿）的视角分析了有关承运人适航性义务的规定。第三部分指出了上述规定中存在的问题和漏洞。最后，第四部分提出了建议和展望。
+
+关键词：承运人；适航性义务；海上货物运输
+
+1. 引言
+作为国际海上货物运输合同的当事方，承运人有义务确保船舶的适航性。这被称为承运人的基本职责，即适航性义务。适航性义务是海事法中的一个古老制度，它见证了船舶经济和技术的发展，以及船东和货主之间利益平衡和纠纷解决的逐渐演变。海事法中适航性义务的发展标志着对公平、正义和利益平衡价值不断探索和实践的旅程。
+
+作为一个重要的贸易和航运国家，中国需要深入了解和分析国际海上货物运输中承运人适航性义务的相关内容，以实现持续稳定发展，最终成为一个海事和贸易强国。
+2023-12-28 18:26:04.280 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：powerhouse. At the same time, it is necessary to draw on valuable content, analyze the
+deficiencies in China's regulatory framework for the seaworthiness obligation, and
+propose effective suggestions based on the "People's Republic of China Maritime Law
+(Draft for Solicitation of Comments)" and the latest international rules. These
+suggestions aim to promote the improvement of China's regulatory framework for the
+seaworthiness obligation and facilitate the stable development of maritime trade.
+2. Overview of seaworthiness obligation
+Since the era of navigation, the seaworthiness obligation has been recognized as one
+of the fundamental obligations of the carrier and has always been a focus of attention
+in maritime law. It is part of the foundation of the carrier's liability under international
+maritime cargo transportation law. After the Hague Rules, the seaworthiness obligation
+became known as the primary duty of the carrier [1]. The following provides a brief
+overview of the development of the seaworthiness obligation and the seaworthiness
+obligation under regulatory framework in the China's Maritime Law.
+2.1 The development of seaworthiness obligation
+2.1.1 Origin of seaworthiness obligation
+The seaworthiness obligation originated during the prosperous period of European
+shipping and trade. During that time, various compilations of maritime customs and
+practices emerged, among which the “Oleron Customs Collection” and the “Consulate
+of the Sea” were the most representative. The “Oleron Customs Collection” stipulated
+the liability of the shipmaster and crew for breach of the seaworthiness obligation, while
+the “Consulate of the Sea” contained provisions on the shipowner’s obligation to
+properly load and protect the cargo of the cargo owner [2].
+The seaworthiness obligation at that time had two notable characteristics: first, it
+expanded its scope beyond just the safety of maritime navigation and began to focus on
+the fitness of the vessel and crew; second, the liability of the shipper (cargo owner) was
+significantly reduced, leading to the rupture of the interests of both parties. The
+seaworthiness obligation for shipmasters and crew gradually became more codified,
+evolving into the seaworthiness obligation in modern maritime law.
+2.1.2 Early development of seaworthiness obligation
+In the late 19th century, the British shipping industry flourished and became the
+center of world shipping. According to the British common law at that time, liner
+transportation belonged to the field of public transportation, and public carriers had to
+accept any goods delivered by anyone without the right to refuse transportation. In order
+to avoid this restriction, public carriers gradually began to include a large number of
+exemption clauses for compensation liability in bills of lading that represented liner
+transportation contracts, in order to avoid bearing compensation liability for the loss or
+damage of goods. Over time, these clauses became extremely, and the abuse of
+contractual freedom by carriers became widespread, seriously affecting the
+development of international shipping. This situation caused dissatisfaction in
+2
+2023-12-28 18:26:31.836 | INFO     | translator.pdf_translator:translate_pdf:21 - 中国的监管框架对于船舶适航义务的不足需要依赖有价值的内容、分析，并基于《中华人民共和国海商法（征求意见稿）》和最新的国际规则提出有效建议。这些建议旨在促进中国船舶适航义务监管框架的改进，促进海运贸易的稳定发展。
+
+2. 船舶适航义务概述
+自航海时代以来，船舶适航义务被认为是承运人的基本义务之一，始终是海商法中的关注焦点。它是国际海洋货物运输法下承运人责任的基础之一。在海牙规则之后，船舶适航义务被称为承运人的首要义务[1]。以下简要概述了船舶适航义务的发展以及中国海商法监管框架下的船舶适航义务。
+
+2.1 船舶适航义务的发展
+2.1.1 船舶适航义务的起源
+船舶适航义务起源于欧洲航运贸易的繁荣时期。在那个时候，出现了各种关于海事习俗和实践的编纂，其中《奥勒龙习俗集》和《海事领事法》最具代表性。《奥勒龙习俗集》规定了船长和船员对违反船舶适航义务的责任，而《海事领事法》则包含了关于船东对货物的适当装卸和保护义务的规定[2]。
+
+当时的船舶适航义务具有两个显著特点：首先，它超越了海上航行的安全性，开始关注船舶和船员的适合程度；其次，货主（货物所有人）的责任显著降低，导致双方利益的破裂。船长和船员的船舶适航义务逐渐被制度化，演变为现代海商法中的船舶适航义务。
+
+2.1.2 船舶适航义务的早期发展
+19世纪末，英国航运业蓬勃发展，成为世界航运的中心。根据当时的英国普通法，班轮运输属于公共运输领域，公共承运人必须接受任何人递交的货物，无权拒绝运输。为了避免这种限制，公共承运人逐渐在代表班轮运输合同的提单中包含大量的赔偿责任豁免条款，以避免对货物的损失或损坏承担赔偿责任。随着时间的推移，这些条款变得极其普遍，并且承运人滥用契约自由的情况普遍存在，严重影响了国际航运的发展。这种情况引起了海商法领域的不满。
+2023-12-28 18:26:31.837 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：international shipping and gradually gave rise to the movement for standardizing bills
+of lading. Represented by the United States, many countries adopted various measures
+of resistance, and the most representative and far-reaching impact was the Hart's Law
+enacted by the United States in 1893. This law severely prohibited shipowners from
+arbitrarily reducing their own responsibilities and required shipowners to guarantee the
+seaworthiness for the entire duration of transportation, thereby increasing the
+shipowners' responsibilities.
+2.1.3 Seaworthiness obligation in the Hague Rules
+The Hague Rules improved the strict and absolute seaworthiness obligation that had
+long troubled carriers. It limited the time period in which carriers were liable for
+seaworthiness to before and at the time of departure. As long as carriers had taken “due
+diligence” measures, the “latent defects” that the vessel itself might have would not
+affect the determination of whether the carriers had fulfilled their seaworthiness
+obligation, and carriers would not be held liable. Under the Hague Rules, the
+relationship between vessel seaworthiness and carrier exemption clauses was also
+crucial. According to the rules, carriers must make the vessel seaworthy, fulfill their
+seaworthiness obligation, or even if they failed to fulfill their seaworthiness obligation,
+the infringement caused must not be causally related to the unseaworthiness of the
+vessel in order for carriers to enjoy exemption clauses. Even if carriers fail to fulfill
+their obligations of properly handling the cargo or operating on the proper route, it will
+not affect the implementation of the exemption clauses. Such provisions make the
+seaworthiness obligation a “primary obligation” for carriers under the Hague Rules.
+However, with the birth of the Hamburg Rules and the establishment of a regime of
+strict liability, this situation has changed.
+2.1.4 Seaworthiness obligation in the Hague Rules
+The Hamburg Rules readjusted the rights and obligations of carriers and shippers,
+and made more thorough revisions to the Hague Rules, with the most important sign
+being an increase in carrier liability and the establishment of a regime of strict liability
+[3]. Moreover, it also modified the provisions regarding the duration of carriers’
+seaworthiness obligation [4], specifically stating that carriers should bear the
+seaworthiness obligation “during the period of their control of the goods”. Compared
+to the Hague Rules, the seaworthiness obligation for carriers has been extended to the
+entire voyage. In addition, unlike the “due diligence” requirement of the Hague Rules
+and the Visby Rules, the Hamburg Rules require carriers to take “all necessary
+measures that can reasonably be demanded” to avoid loss or damage to the goods. The
+revised rules lengthen the duration of carriers’ seaworthiness obligation and increase
+their responsibilities. Developed countries representing the interests of shipowners have
+rarely signed or ratified this convention, and the convention has not truly taken effect
+or had an impact.
+2.1.5 Seaworthiness obligation in the Rotterdam Rules
+In the Rotterdam Rules, the provisions regarding the seaworthiness obligation
+explicitly state that the duration of the seaworthiness obligation includes not only the
+3
+2023-12-28 18:26:56.696 | INFO     | translator.pdf_translator:translate_pdf:21 - 国际航运逐渐催生了标准化提单的运动。许多国家采取了各种反对措施，其中最具代表性和最有广泛影响力的是美国于1893年颁布的哈特法。该法严厉禁止船东任意减少自身责任，并要求船东保证整个运输期间的适航性，从而增加了船东的责任。
+
+《海牙规则》改进了长期困扰承运人的严格和绝对的适航性义务。它将承运人对适航性的责任限制在出发前和出发时期间。只要承运人采取了“尽职调查”措施，船舶本身可能具有的“潜在缺陷”不会影响承运人是否履行了适航性义务，承运人也不会承担责任。根据《海牙规则》，船舶适航性和承运人的豁免条款之间的关系也是至关重要的。根据规则，承运人必须使船舶具备适航性，履行适航性义务，即使他们未能履行适航性义务，所造成的侵权行为也不能与船舶的非适航性有因果关系，才能享受豁免条款。即使承运人未能履行妥善处理货物或按照正确航线操作的义务，也不会影响豁免条款的实施。这些规定将适航性义务作为《海牙规则》下承运人的“主要义务”。然而，随着《汉堡规则》的诞生和严格责任制度的建立，这种情况发生了改变。
+
+《汉堡规则》重新调整了承运人和托运人的权利和义务，并对《海牙规则》进行了更为彻底的修订，最重要的标志是承运人责任的增加和严格责任制度的建立[3]。此外，它还修改了承运人适航性义务的规定[4]，明确规定承运人应在他们对货物具有控制权期间承担适航性义务。与《海牙规则》相比，承运人的适航性义务已扩展到整个航程。此外，与《海牙规则》和《维斯比规则》所要求的“尽职调查”要求不同，汉堡规则要求承运人采取“所有可以合理要求的必要措施”来避免货物的损失或损坏。修订后的规则延长了承运人的适航性义务的持续时间，并增加了他们的责任。代表船东利益的发达国家很少签署或批准这个公约，所以该公约并没有真正生效或产生影响。
+
+在《鹿特丹规则》中，关于适航性义务的规定明确说明适航性义务的持续时间不仅包括承运人接管货物时期，还包括运输期间。
+2023-12-28 18:26:56.697 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/study.pdf
+2023-12-28 18:26:56.698 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/study_translated.md
+2023-12-28 18:26:56.699 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/study_translated.md

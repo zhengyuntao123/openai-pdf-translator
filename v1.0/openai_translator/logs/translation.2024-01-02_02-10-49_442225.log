@@ -1,0 +1,3577 @@
+2024-01-02 02:10:49.440 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:10:49.446 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:10:49.446 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:10:58.003 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+这个数据集包含了两个由OpenAI的AI语言模型ChatGPT提供的测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可以用来测试支持文本和表格格式的英译中翻译软件。
+文本测试
+快速的棕色狐狸跳过懒惰的狗。这个全字母句至少包含了英语字母表中的每个字母。全字母句经常用于测试字体、键盘和其他与文本相关的工具。除了英语，许多其他语言也有全字母句。由于语言的独特特点，有些全字母句难以构造。
+2024-01-02 02:10:58.006 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:11:04.064 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果  颜色  价格（美元）
+苹果   红色   1.20
+香蕉   黄色   0.50
+橙子   橙色   0.80
+草莓   红色   2.50
+蓝莓   蓝色   3.00
+猕猴桃 绿色   1.00
+芒果   橙色   1.50
+葡萄   紫色   2.00
+2024-01-02 02:11:04.065 | DEBUG    | book.content:set_translation:50 - 水果  颜色  价格（美元）
+苹果   红色   1.20
+香蕉   黄色   0.50
+橙子   橙色   0.80
+草莓   红色   2.50
+蓝莓   蓝色   3.00
+猕猴桃 绿色   1.00
+芒果   橙色   1.50
+葡萄   紫色   2.00
+2024-01-02 02:11:04.065 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:11:04.066 | DEBUG    | book.content:set_translation:57 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2024-01-02 02:11:04.074 | INFO     | translator.writer:_save_translated_book_markdown:83 - pdf_file_path: tests/test.pdf
+2024-01-02 02:11:04.074 | INFO     | translator.writer:_save_translated_book_markdown:84 - 开始翻译: tests/test_translated.md
+2024-01-02 02:11:04.075 | INFO     | translator.writer:_save_translated_book_markdown:108 - 翻译完成: tests/test_translated.md
+2024-01-02 02:11:37.342 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:11:37.345 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:11:37.345 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:11:43.816 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+该数据集包含OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+
+这些样本包括一个markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英文到中文翻译软件。
+
+文本测试
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:11:43.820 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:11:47.596 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色      价格（USD）
+Apple      Red      1.20
+Banana   Yellow  0.50
+Orange   Orange  0.80
+Strawberry  Red      2.50
+Blueberry   Blue    3.00
+Kiwi        Green  1.00
+Mango   Orange  1.50
+Grape    Purple  2.00
+2024-01-02 02:11:47.596 | DEBUG    | book.content:set_translation:50 - 水果    颜色      价格（USD）
+Apple      Red      1.20
+Banana   Yellow  0.50
+Orange   Orange  0.80
+Strawberry  Red      2.50
+Blueberry   Blue    3.00
+Kiwi        Green  1.00
+Mango   Orange  1.50
+Grape    Purple  2.00
+2024-01-02 02:11:47.597 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（USD）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:11:47.598 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（USD）
+0       Apple     Red    1.20
+1      Banana  Yellow    0.50
+2      Orange  Orange    0.80
+3  Strawberry     Red    2.50
+4   Blueberry    Blue    3.00
+5        Kiwi   Green    1.00
+6       Mango  Orange    1.50
+7       Grape  Purple    2.00
+2024-01-02 02:11:47.602 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:11:47.602 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:11:47.682 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:16:08.503 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:16:08.506 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:16:08.507 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:16:16.838 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中翻译软件。
+文本测试
+快速的棕色狐狸跳过懒狗。这个全字母句至少包含了英文字母的每一个字母。全字母句经常用来测试字体、键盘和其他与文本相关的工具。除了英语，其他语言也有全字母句。由于语言的独特特点，有些全字母句更难以构造。
+表格测试
+2024-01-02 02:16:16.841 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:16:20.830 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色     价格（美元）
+Apple    Red      1.20
+Banana  Yellow   0.50
+Orange  Orange   0.80
+Strawberry  Red   2.50
+Blueberry  Blue   3.00
+Kiwi    Green    1.00
+Mango   Orange   1.50
+Grape    Purple  2.00
+2024-01-02 02:16:20.831 | DEBUG    | book.content:set_translation:50 - 水果    颜色     价格（美元）
+Apple    Red      1.20
+Banana  Yellow   0.50
+Orange  Orange   0.80
+Strawberry  Red   2.50
+Blueberry  Blue   3.00
+Kiwi    Green    1.00
+Mango   Orange   1.50
+Grape    Purple  2.00
+2024-01-02 02:16:20.831 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:16:20.832 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:16:20.836 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:16:20.836 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:16:20.902 | INFO     | translator.writer:_save_translated_book_pdf:78 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:23:57.818 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:23:57.824 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:23:57.824 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:24:05.878 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+该数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中翻译软件。
+文本测试
+快速的棕色狐狸跳过懒狗。这个全字母句至少包含了英语字母表中的每一个字母。全字母句常用于测试字体、键盘和其他与文本相关的工具。除了英语之外，许多其他语言也有全字母句。由于语言的独特特性，有些全字母句更难构造。
+表格测试
+2024-01-02 02:24:05.885 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:24:11.440 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果        颜色       价格（美元）
+苹果       红色        1.20
+香蕉       黄色        0.50
+橙子       橙色        0.80
+草莓       红色        2.50
+蓝莓       蓝色        3.00
+猕猴桃     绿色        1.00
+芒果       橙色        1.50
+葡萄       紫色        2.00
+2024-01-02 02:24:11.440 | DEBUG    | book.content:set_translation:50 - 水果        颜色       价格（美元）
+苹果       红色        1.20
+香蕉       黄色        0.50
+橙子       橙色        0.80
+草莓       红色        2.50
+蓝莓       蓝色        3.00
+猕猴桃     绿色        1.00
+芒果       橙色        1.50
+葡萄       紫色        2.00
+2024-01-02 02:24:11.441 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:24:11.442 | DEBUG    | book.content:set_translation:57 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2024-01-02 02:24:11.449 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:24:11.450 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:24:59.037 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:24:59.043 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:24:59.043 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:26:29.592 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2024-01-02 02:26:29.597 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:28:02.717 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test    Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text  testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table  Testing
+2024-01-02 02:28:02.723 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:31:14.813 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:31:14.819 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:31:19.151 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:31:19.154 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:31:19.154 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:31:25.684 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+此数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试同时支持文本和表格格式的英译中翻译软件。
+
+文本测试
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:31:25.686 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:31:30.658 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果	颜色	价格（美元）
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+奇异果	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:31:30.659 | DEBUG    | book.content:set_translation:50 - 水果	颜色	价格（美元）
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+奇异果	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:31:30.659 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['奇异果', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:31:30.659 | DEBUG    | book.content:set_translation:57 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  奇异果  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2024-01-02 02:31:30.663 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:31:30.663 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:31:30.730 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:31:49.121 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:31:49.126 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:31:49.126 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:33:38.795 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:33:38.798 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:33:38.798 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:33:47.851 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+这个数据集包含了两个测试样本，由OpenAI的ChatGPT提供，它是一个AI语言模型。
+这些样本包括一个Markdown表格和一段英文文本，可以用来测试支持文本和表格格式的中英翻译软件。
+
+
+文本测试
+
+
+快速的棕色狐狸跳过懒狗。这个全字母句至少包含了英文字母表中的每一个字母。全字母句经常被用来测试字体、键盘和其他与文本有关的工具。除了英文以外，还有很多其他语言的全字母句。有些全字母句更
+难以构建，因为语言的独特特点。
+
+表格测试
+2024-01-02 02:33:47.852 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:33:51.450 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色    价格（美元）
+Apple  Red    1.20 
+Banana Yellow 0.50 
+Orange Orange 0.80 
+Strawberry Red 2.50 
+Blueberry Blue 3.00 
+Kiwi   Green 1.00 
+Mango  Orange 1.50 
+Grape  Purple 2.00
+2024-01-02 02:33:51.450 | DEBUG    | book.content:set_translation:50 - 水果    颜色    价格（美元）
+Apple  Red    1.20 
+Banana Yellow 0.50 
+Orange Orange 0.80 
+Strawberry Red 2.50 
+Blueberry Blue 3.00 
+Kiwi   Green 1.00 
+Mango  Orange 1.50 
+Grape  Purple 2.00
+2024-01-02 02:33:51.450 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:33:51.451 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:33:51.453 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:33:51.453 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:33:51.510 | INFO     | translator.writer:_save_translated_book_pdf:77 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:34:08.170 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:34:08.176 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:34:08.176 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:35:24.896 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+这个数据集包含了由ChatGPT提供的两个测试样本，ChatGPT是OpenAI的一种AI语言模型。
+这些样本包括一个Markdown表格和一段英文文本，可以用来测试支持文本和表格格式的英译中软件。
+
+
+文本测试
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:35:24.903 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:35:30.538 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果	颜色	价格（美元）
+-------------------------------
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+猕猴桃	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:35:30.539 | DEBUG    | book.content:set_translation:50 - 水果	颜色	价格（美元）
+-------------------------------
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+猕猴桃	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:35:30.539 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['-------------------------------'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:35:30.540 | DEBUG    | book.content:set_translation:57 -                                 水果    颜色 价格（美元）
+0  -------------------------------  None   None
+1                               苹果    红色   1.20
+2                               香蕉    黄色   0.50
+3                               橙子    橙色   0.80
+4                               草莓    红色   2.50
+5                               蓝莓    蓝色   3.00
+6                              猕猴桃    绿色   1.00
+7                               芒果    橙色   1.50
+8                               葡萄    紫色   2.00
+2024-01-02 02:35:30.548 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:35:30.548 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:43:22.246 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Test    Data
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ These samples include a markdown table and an English text passage, which can be used to test an
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ English-to-Chinese translation software supporting both text and table formats.
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Text  testing
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.247 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.248 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+2024-01-02 02:43:22.248 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+2024-01-02 02:43:22.248 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+2024-01-02 02:43:22.248 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.248 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ difficult to construct due to the unique characteristics of the language.
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ Table  Testing
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.250 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.251 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.252 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.252 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.252 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+2024-01-02 02:43:22.254 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:43:22.254 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:24.284 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please keep the original format (spaces, line breaks):
+翻译为中文，请保留原本的格式（空格，换行符）：
+2024-01-02 02:43:24.285 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:25.507 | INFO     | translator.pdf_translator:translate_pdf:21 - Sorry, I cannot directly translate text here.
+2024-01-02 02:43:25.508 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:28.912 | INFO     | translator.pdf_translator:translate_pdf:21 - I am a language model developed by OpenAI. I have been trained on a large corpus of text and can generate human-like responses based on the input I receive. My purpose is to assist users in generating natural language text and to provide helpful and accurate information. Please feel free to ask me any questions or give me prompts, and I will do my best to provide a satisfactory response.
+2024-01-02 02:43:28.912 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:31.988 | INFO     | translator.pdf_translator:translate_pdf:21 - Translate to Chinese, please keep the original format (spaces, line breaks):
+
+Hello,
+I hope you are doing well.
+I wanted to let you know that I will be coming to visit you next month.
+I can't wait to see you and catch up.
+Let's plan some fun activities together.
+Looking forward to seeing you soon.
+Take care.
+Best,
+John
+2024-01-02 02:43:31.988 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:33.802 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please keep the original format (spaces, line breaks):
+
+翻译为中文，请保留原本的格式（空格、换行符）：
+2024-01-02 02:43:33.802 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:34.665 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please keep the original format (spaces, line breaks):
+2024-01-02 02:43:34.665 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:36.617 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please keep the original format (spaces, line breaks):
+
+翻译为中文，请保留原本的格式（空格，换行符）：
+2024-01-02 02:43:36.617 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：Test    Data
+2024-01-02 02:43:37.346 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+2024-01-02 02:43:37.347 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:39.335 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation to Chinese, please keep the original formatting (spaces, line breaks):
+
+翻译为中文，请保留原本的格式（空格，换行符）：
+2024-01-02 02:43:39.335 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:41.285 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please keep the original formatting (spaces, line breaks):
+
+翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:41.285 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:42.207 | INFO     | translator.pdf_translator:translate_pdf:21 - I am happy to announce that our company has reached a major milestone.
+2024-01-02 02:43:42.207 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+2024-01-02 02:43:43.561 | INFO     | translator.pdf_translator:translate_pdf:21 - 这个数据集包含两个由OpenAI的AI语言模型ChatGPT提供的测试样本。
+2024-01-02 02:43:43.562 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：These samples include a markdown table and an English text passage, which can be used to test an
+2024-01-02 02:43:46.368 | INFO     | translator.pdf_translator:translate_pdf:21 - algorithm or program's ability to accurately translate text from English to other languages. The table includes various sentence structures and vocabulary, while the text passage provides a longer and more complex example. By using these samples, developers can assess the performance and quality of their translation systems. Additionally, they can identify and address any issues or areas for improvement.
+2024-01-02 02:43:46.369 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：English-to-Chinese translation software supporting both text and table formats.
+2024-01-02 02:43:47.464 | INFO     | translator.pdf_translator:translate_pdf:21 - 支持文本和表格格式的中英翻译软件。
+2024-01-02 02:43:47.464 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:50.438 | INFO     | translator.pdf_translator:translate_pdf:21 - Translate to Chinese, please keep the original format (spaces, line breaks):
+
+Hello,
+I hope this message finds you well.
+I wanted to let you know that the meeting scheduled for next week has been rescheduled to the following week due to unforeseen circumstances.
+Please update your calendar accordingly.
+Thank you for your understanding.
+Best regards,
+John Smith
+2024-01-02 02:43:50.439 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:52.355 | INFO     | translator.pdf_translator:translate_pdf:21 - Translate into Chinese, please keep the original format (spaces, line breaks):
+
+Hello, 
+
+My name is Lisa. I am a student from China. I love reading books and watching movies. 
+
+Thank you!
+2024-01-02 02:43:52.356 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：Text  testing
+2024-01-02 02:43:52.810 | INFO     | translator.pdf_translator:translate_pdf:21 - 文本测试
+2024-01-02 02:43:52.811 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:54.600 | INFO     | translator.pdf_translator:translate_pdf:21 - Translation into Chinese, please preserve the original format (spaces, line breaks):
+
+翻译为中文，请保留原本的格式（空格，换行符）：
+2024-01-02 02:43:54.600 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+2024-01-02 02:43:55.559 | INFO     | translator.pdf_translator:translate_pdf:21 - Translate to Chinese, please keep the original format (spaces, line breaks):
+2024-01-02 02:43:55.559 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+2024-01-02 02:43:57.401 | INFO     | translator.pdf_translator:translate_pdf:21 - 快速的棕色狐狸跳过懒惰的狗。这个句子包含了英语中的每一个字母。
+2024-01-02 02:43:57.401 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+2024-01-02 02:46:08.791 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:46:08.794 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:46:08.794 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:46:16.968 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+这个数据集包含了两个由ChatGPT提供的测试样本，ChatGPT是OpenAI的一种AI语言模型。
+这些样本包括一个标记表格和一个英语文本段落，可以用来测试支持文本和表格格式的英译中软件。
+
+文本测试
+
+敏捷的棕色狐狸跳过懒狗。这个句子包含了英语字母表中的每一个字母。句子是经常用来测试字体、键盘和其他与文本相关的工具的。除了英语，其他语言也有一些句子。有些句子由于语言的独特特性而更难构建。
+
+表格测试
+2024-01-02 02:46:16.971 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:46:21.409 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果   颜色    价格（美元）
+Apple   红色     1.20
+Banana  黄色     0.50
+Orange  橙色     0.80
+Strawberry  红色  2.50
+Blueberry   蓝色  3.00
+Kiwi    绿色     1.00
+Mango   橙色     1.50
+Grape   紫色     2.00
+2024-01-02 02:46:21.409 | DEBUG    | book.content:set_translation:50 - 水果   颜色    价格（美元）
+Apple   红色     1.20
+Banana  黄色     0.50
+Orange  橙色     0.80
+Strawberry  红色  2.50
+Blueberry   蓝色  3.00
+Kiwi    绿色     1.00
+Mango   橙色     1.50
+Grape   紫色     2.00
+2024-01-02 02:46:21.409 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', '红色', '1.20'], ['Banana', '黄色', '0.50'], ['Orange', '橙色', '0.80'], ['Strawberry', '红色', '2.50'], ['Blueberry', '蓝色', '3.00'], ['Kiwi', '绿色', '1.00'], ['Mango', '橙色', '1.50'], ['Grape', '紫色', '2.00']]
+2024-01-02 02:46:21.409 | DEBUG    | book.content:set_translation:57 -            水果  颜色 价格（美元）
+0       Apple  红色   1.20
+1      Banana  黄色   0.50
+2      Orange  橙色   0.80
+3  Strawberry  红色   2.50
+4   Blueberry  蓝色   3.00
+5        Kiwi  绿色   1.00
+6       Mango  橙色   1.50
+7       Grape  紫色   2.00
+2024-01-02 02:46:21.413 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:46:21.413 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:46:21.487 | INFO     | translator.writer:_save_translated_book_pdf:81 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:46:54.422 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:46:54.428 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:46:54.428 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:47:01.359 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可以用来测试支持文本和表格格式的英译汉翻译软件。
+
+文本测试
+
+快速的棕色狐狸跳过懒狗。这个句子包含了英语字母表中的每一个字母。
+句子通常用于测试字体、键盘和其他与文本相关的工具。
+除了英语之外，其他许多语言也有句子。
+由于语言的独特特点，有些句子更难构造。
+
+表格测试
+2024-01-02 02:47:01.366 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:47:05.120 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果      颜色       价格（美元）
+Apple    Red      1.20
+Banana   Yellow   0.50
+Orange   Orange   0.80
+Strawberry Red     2.50
+Blueberry Blue    3.00
+Kiwi     Green    1.00
+Mango    Orange   1.50
+Grape    Purple   2.00
+2024-01-02 02:47:05.121 | DEBUG    | book.content:set_translation:50 - 水果      颜色       价格（美元）
+Apple    Red      1.20
+Banana   Yellow   0.50
+Orange   Orange   0.80
+Strawberry Red     2.50
+Blueberry Blue    3.00
+Kiwi     Green    1.00
+Mango    Orange   1.50
+Grape    Purple   2.00
+2024-01-02 02:47:05.121 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:47:05.121 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:47:05.126 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:47:05.126 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:49:56.015 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:49:56.018 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:49:56.018 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:50:04.204 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个标记表格和一个英文文本段落，可以用来测试支持文本和表格格式的英文到中文翻译软件。
+
+
+文本测试
+
+
+快速的棕色狐狸跳过了懒狗。这个句子含有英语字母表中的每一个字母。
+为了测试字体、键盘和其他文本相关工具，经常使用包括所有字母的句子。
+除了英语外，其他许多语言中也有含有所有字母的句子。由于语言的独特特点，有些句子可能更难构造。
+
+表格测试
+2024-01-02 02:50:04.207 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:50:09.735 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果  颜色  价格（美元）
+苹果  红色  1.20
+香蕉  黄色  0.50
+橙子  橙色  0.80
+草莓  红色  2.50
+蓝莓  蓝色  3.00
+猕猴桃  绿色  1.00
+芒果  橙色  1.50
+葡萄  紫色  2.00
+2024-01-02 02:50:09.736 | DEBUG    | book.content:set_translation:50 - 水果  颜色  价格（美元）
+苹果  红色  1.20
+香蕉  黄色  0.50
+橙子  橙色  0.80
+草莓  红色  2.50
+蓝莓  蓝色  3.00
+猕猴桃  绿色  1.00
+芒果  橙色  1.50
+葡萄  紫色  2.00
+2024-01-02 02:50:09.736 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:50:09.736 | DEBUG    | book.content:set_translation:57 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2024-01-02 02:50:09.740 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:50:09.740 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:50:09.813 | INFO     | translator.writer:_save_translated_book_pdf:84 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:51:44.795 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:51:44.798 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:51:44.798 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:51:51.607 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+
+这个数据集包含了两个由ChatGPT提供的测试样本，ChatGPT是由OpenAI开发的AI语言模型。
+这些样本包括一个Markdown表格和一段英文文本，可以用来测试支持文本和表格格式的中英文翻译软件。
+
+
+文本测试
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:51:51.610 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:51:55.250 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果   颜色    价格（美元）
+Apple   Red     1.20
+Banana  Yellow  0.50
+Orange  Orange  0.80
+Strawberry   Red     2.50
+Blueberry    Blue    3.00
+Kiwi    Green   1.00
+Mango   Orange  1.50
+Grape   Purple  2.00
+2024-01-02 02:51:55.250 | DEBUG    | book.content:set_translation:50 - 水果   颜色    价格（美元）
+Apple   Red     1.20
+Banana  Yellow  0.50
+Orange  Orange  0.80
+Strawberry   Red     2.50
+Blueberry    Blue    3.00
+Kiwi    Green   1.00
+Mango   Orange  1.50
+Grape   Purple  2.00
+2024-01-02 02:51:55.250 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:51:55.250 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:51:55.252 | INFO     | translator.writer:_save_translated_book_markdown:90 - pdf_file_path: tests/test.pdf
+2024-01-02 02:51:55.252 | INFO     | translator.writer:_save_translated_book_markdown:91 - 开始翻译: tests/test_translated.md
+2024-01-02 02:51:55.253 | INFO     | translator.writer:_save_translated_book_markdown:120 - 翻译完成: tests/test_translated.md
+2024-01-02 02:52:03.295 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:52:03.298 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:52:03.298 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:52:09.749 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+这个数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中翻译软件。
+
+
+文本测试
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:52:09.752 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:52:13.521 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果           颜色          价格（美元）
+Apple        Red            1.20
+Banana     Yellow       0.50
+Orange    Orange     0.80
+Strawberry  Red          2.50
+Blueberry   Blue       3.00
+Kiwi            Green     1.00
+Mango       Orange     1.50
+Grape        Purple     2.00
+2024-01-02 02:52:13.522 | DEBUG    | book.content:set_translation:50 - 水果           颜色          价格（美元）
+Apple        Red            1.20
+Banana     Yellow       0.50
+Orange    Orange     0.80
+Strawberry  Red          2.50
+Blueberry   Blue       3.00
+Kiwi            Green     1.00
+Mango       Orange     1.50
+Grape        Purple     2.00
+2024-01-02 02:52:13.522 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:52:13.522 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:52:13.526 | INFO     | translator.writer:_save_translated_book_markdown:90 - pdf_file_path: tests/test.pdf
+2024-01-02 02:52:13.526 | INFO     | translator.writer:_save_translated_book_markdown:91 - 开始翻译: tests/test_translated.md
+2024-01-02 02:52:13.527 | INFO     | translator.writer:_save_translated_book_markdown:120 - 翻译完成: tests/test_translated.md
+2024-01-02 02:52:45.099 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:52:45.101 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:52:45.102 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:52:51.179 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+
+该数据集包含由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个markdown表格和一个英文文本段落，可用于测试同时支持文本和表格格式的英文到中文翻译软件。
+
+
+文本测试
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:52:51.182 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:52:56.144 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果 颜色 价格（美元） 
+
+苹果 红色 1.20 
+香蕉 黄色 0.50 
+橙子 橙色 0.80 
+草莓 红色 2.50 
+蓝莓 蓝色 3.00 
+猕猴桃 绿色 1.00 
+芒果 橙色 1.50 
+葡萄 紫色 2.00
+2024-01-02 02:52:56.144 | DEBUG    | book.content:set_translation:50 - 水果 颜色 价格（美元） 
+
+苹果 红色 1.20 
+香蕉 黄色 0.50 
+橙子 橙色 0.80 
+草莓 红色 2.50 
+蓝莓 蓝色 3.00 
+猕猴桃 绿色 1.00 
+芒果 橙色 1.50 
+葡萄 紫色 2.00
+2024-01-02 02:52:56.145 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], [], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:52:56.145 | DEBUG    | book.content:set_translation:57 -      水果    颜色 价格（美元）
+0  None  None   None
+1    苹果    红色   1.20
+2    香蕉    黄色   0.50
+3    橙子    橙色   0.80
+4    草莓    红色   2.50
+5    蓝莓    蓝色   3.00
+6   猕猴桃    绿色   1.00
+7    芒果    橙色   1.50
+8    葡萄    紫色   2.00
+2024-01-02 02:52:56.148 | INFO     | translator.writer:_save_translated_book_markdown:90 - pdf_file_path: tests/test.pdf
+2024-01-02 02:52:56.149 | INFO     | translator.writer:_save_translated_book_markdown:91 - 开始翻译: tests/test_translated.md
+2024-01-02 02:52:56.149 | INFO     | translator.writer:_save_translated_book_markdown:120 - 翻译完成: tests/test_translated.md
+2024-01-02 02:53:18.448 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:53:18.451 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:53:18.451 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:53:24.733 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+
+这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个markdown表格和一个英文文本段落，可用于测试同时支持文本和表格格式的英译中翻译软件。
+
+
+文本测试
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+
+表格测试
+2024-01-02 02:53:24.736 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:53:28.103 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果    颜色       价格（美元）
+Apple   Red   1.20
+Banana  Yellow   0.50
+Orange  Orange   0.80
+Strawberry  Red   2.50
+Blueberry   Blue   3.00
+Kiwi    Green   1.00
+Mango   Orange  1.50
+Grape   Purple  2.00
+2024-01-02 02:53:28.103 | DEBUG    | book.content:set_translation:50 - 水果    颜色       价格（美元）
+Apple   Red   1.20
+Banana  Yellow   0.50
+Orange  Orange   0.80
+Strawberry  Red   2.50
+Blueberry   Blue   3.00
+Kiwi    Green   1.00
+Mango   Orange  1.50
+Grape   Purple  2.00
+2024-01-02 02:53:28.103 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['Apple', 'Red', '1.20'], ['Banana', 'Yellow', '0.50'], ['Orange', 'Orange', '0.80'], ['Strawberry', 'Red', '2.50'], ['Blueberry', 'Blue', '3.00'], ['Kiwi', 'Green', '1.00'], ['Mango', 'Orange', '1.50'], ['Grape', 'Purple', '2.00']]
+2024-01-02 02:53:28.103 | DEBUG    | book.content:set_translation:57 -            水果      颜色 价格（美元）
+0       Apple     Red   1.20
+1      Banana  Yellow   0.50
+2      Orange  Orange   0.80
+3  Strawberry     Red   2.50
+4   Blueberry    Blue   3.00
+5        Kiwi   Green   1.00
+6       Mango  Orange   1.50
+7       Grape  Purple   2.00
+2024-01-02 02:53:28.105 | INFO     | translator.writer:_save_translated_book_markdown:90 - pdf_file_path: tests/test.pdf
+2024-01-02 02:53:28.105 | INFO     | translator.writer:_save_translated_book_markdown:91 - 开始翻译: tests/test_translated.md
+2024-01-02 02:53:28.106 | INFO     | translator.writer:_save_translated_book_markdown:120 - 翻译完成: tests/test_translated.md
+2024-01-02 02:54:34.898 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:54:34.900 | DEBUG    | translator.pdf_parser:parse_pdf:60 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:54:34.900 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+
+Test    Data
+
+
+
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+
+
+Text  testing
+
+
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+
+difficult to construct due to the unique characteristics of the language.
+
+Table  Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-01-02 02:54:43.235 | INFO     | translator.pdf_translator:translate_pdf:21 - 测试数据
+
+
+这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
+这些样本包括一个Markdown表格和一个英文文本段落，可用于测试支持文本和表格格式的英译中软件。
+
+
+文本测试
+
+
+敏捷的棕色狐狸跳过懒狗。这个句子包含了英语字母表中的每一个字母。句子字典是经常用来测试字体、键盘和其他与文本相关的工具的。除了英语，许多其他语言也有句子字典。由于语言的独特特点，有些句子字典更难构造。
+
+
+表格测试
+2024-01-02 02:54:43.237 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文，保持间距（空格，分隔符），以表格形式返回：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2024-01-02 02:54:48.036 | INFO     | translator.pdf_translator:translate_pdf:21 - 水果	颜色	价格（美元）
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+猕猴桃	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:54:48.037 | DEBUG    | book.content:set_translation:50 - 水果	颜色	价格（美元）
+苹果	红色	1.20
+香蕉	黄色	0.50
+橙子	橙色	0.80
+草莓	红色	2.50
+蓝莓	蓝色	3.00
+猕猴桃	绿色	1.00
+芒果	橙色	1.50
+葡萄	紫色	2.00
+2024-01-02 02:54:48.037 | DEBUG    | book.content:set_translation:54 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2024-01-02 02:54:48.037 | DEBUG    | book.content:set_translation:57 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2024-01-02 02:54:48.041 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/test.pdf
+2024-01-02 02:54:48.041 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/test_translated.pdf
+2024-01-02 02:54:48.107 | INFO     | translator.writer:_save_translated_book_pdf:84 - 翻译完成: tests/test_translated.pdf
+2024-01-02 02:56:12.848 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 02:56:12.936 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 02:56:12.937 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 02:56:49.913 | INFO     | translator.pdf_translator:translate_pdf:21 - 提供适当的归属，Google特此授予权限，仅可在新闻或学术作品中使用本论文中的表格和图表。
+
+《注意力就是一切》
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+摘要
+
+主导的序列转导模型是基于复杂的循环或卷积神经网络，包括编码器和解码器。性能最好的模型也通过注意力机制将编码器和解码器连接起来。我们提出了一种新的简单网络架构，Transformer，完全基于注意力机制，完全放弃了循环和卷积。在两个机器翻译任务上的实验表明，这些模型在质量上优于以往的模型，同时更易于并行化，并且训练时间显著缩短。我们的模型在WMT 2014英德翻译任务上达到了28.4 BLEU，相较于现有的最佳结果（包括集成模型），提高了超过2 BLEU。在WMT 2014英法翻译任务中，我们的模型在训练了3.5天、使用了八个GPU后，得到了新的单模型最优BLEU分数41.8，这只占了从文献中最佳模型的一小部分训练成本。我们展示了Transformer在其他任务上的泛化能力，通过成功应用于英文成分句法分析，并处理大量和有限的训练数据。
+
+*等贡献，顺序是随机的。Jakob提出用自注意力替换RNN并开始评估这个想法。Ashish与Illia一起设计和实现了第一个Transformer模型，并在这项工作的每个方面都起到了至关重要的作用。Noam提出了可缩放的点积注意力、多头注意力和无参数的位置表示，并成为几乎每个细节中的另一个重要人物。Niki在我们的原始代码库和tensor2tensor中设计、实现、调优和评估了无数个模型变种。Llion也尝试了新颖的模型变体，负责我们的初始代码库，并进行高效的推理和可视化。Lukasz和Aidan花费了很多时间设计tensor2tensor的各个部分，并替换了我们之前的代码库，大大提高了结果并大幅加快了我们的研究。
+
+†在GoogleBrain期间进行的工作。
+‡在GoogleResearch期间进行的工作。
+
+第31届神经信息处理系统会议(NIPS2017)，美国加利福尼亚州长滩。
+2024-01-02 02:56:49.913 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 02:57:39.346 | INFO     | translator.pdf_translator:translate_pdf:21 - 1 简介
+
+递归神经网络，长短期记忆[13]和门控循环神经网络[7]在序列建模和转换问题（如语言建模和机器翻译）中，被确定为最先进的方法[35,2,5]。多个研究努力继续推动递归语言模型和编码器-解码器架构的边界[38,24,15]。
+递归模型通常将计算沿着输入和输出序列的符号位置分解。通过将位置对齐到计算时间的步骤，它们生成一个隐藏状态序列h，作为位置t的前一个隐藏状态h和输入的函数。然而，这种顺序性质在训练示例内部阻止了并行化，这在较长的序列长度上变得关键，因为内存限制限制了跨示例的批处理。最近的工作通过因子化技巧[21]和条件计算[32]在计算效率上取得了显著的改进，同时也在后一种情况下改善了模型的性能。然而，顺序计算的基本约束仍然存在。
+
+注意机制已经成为引人注目的序列建模和转换模型在各种任务中的积极部分，允许对依赖关系进行建模，而不考虑它们在输入或输出序列中的距离[2,19]。然而，在除了少数情况[27]之外，这种注意机制通常与循环网络一起使用。
+
+在这项工作中，我们提出了Transformer，这是一种模型体系结构，它摒弃了递归性，而是完全依赖于注意机制来绘制输入和输出之间的全局依赖关系。Transformer允许更高程度的并行化，并可以在仅在八个P100 GPU上训练了仅12小时后达到翻译质量的新水平。
+
+2 背景
+
+减少顺序计算的目标也是Extended Neural GPU [16]，ByteNet [18]和ConvS2S [9]的基础，它们都使用卷积神经网络作为基本构建块，在所有输入和输出位置上并行计算隐藏表示。在这些模型中，从两个任意输入或输出位置关联信号所需的操作数量随着位置之间的距离增加而增加，对于ConvS2S是线性增长，对于ByteNet是对数增长。这使得学习远距离位置之间的依赖关系更加困难。在Transformer中，这被减少到了一定数量的操作次数，尽管由于对注意权重位置的平均，导致了有效分辨率的减少，我们通过多头注意力来抵消这种效果，如3.2节中所述。
+
+自注意力，有时称为内部注意力，是一个注意机制，它涉及到同一个序列中不同位置之间的关系，以计算序列的表示。自注意力已经在多种任务中成功使用，包括阅读理解、抽象总结、文本蕴涵和学习任务无关的句子表示[4,27,28,22]。
+
+端到端记忆网络基于循环注意机制而不是序列对齐循环，并且已经在简单语言问答和语言建模任务中表现良好[34]。
+
+据我们所知，然而，Transformer是第一个完全依赖于自注意力来计算其输入和输出的表示的转换模型，而不使用序列对齐的循环神经网络或卷积。在接下来的几节中，我们将描述Transformer，论证自注意力及其相比于[17,18]和[9]等模型的优势。
+
+3 模型架构
+
+大多数具有竞争力的神经序列转导模型具有编码器-解码器结构[5,2,35]。在这里，编码器将一个符号表示的输入序列(x1,...,xn)映射到一个连续表示的序列z=(z1,...,zn)。给定z，解码器然后生成一个符号的输出序列(y1,...,ym)，每次一个元素。在每个步骤中，模型是自回归的[10]，在生成下一个符号时，将先前生成的符号作为额外的输入。
+2024-01-02 02:57:39.346 | INFO     | translator.writer:_save_translated_book_pdf:29 - pdf_file_path: tests/attention is all you need.pdf
+2024-01-02 02:57:39.347 | INFO     | translator.writer:_save_translated_book_pdf:30 - 开始翻译: tests/attention is all you need_translated.pdf
+2024-01-02 02:57:39.419 | INFO     | translator.writer:_save_translated_book_pdf:84 - 翻译完成: tests/attention is all you need_translated.pdf
+2024-01-02 02:58:14.874 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 02:58:14.966 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 02:58:14.967 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 02:58:54.999 | INFO     | translator.pdf_translator:translate_pdf:21 - 提供合适的归属说明，谷歌特此允许在新闻或学术作品中以本文中所提供的表格和图表进行复制。
+
+注意力就是一切
+
+Ashish Vaswani∗ Noam Shazeer∗ Niki Parmar∗ Jakob Uszkoreit∗
+Google Brain Google Brain Google Research Google Research
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+Llion Jones∗ Aidan N. Gomez∗ † Łukasz Kaiser∗
+Google Research University of Toronto Google Brain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+Illia Polosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+摘要
+
+目前主流的序列转换模型基于复杂的递归或卷积神经网络，包括编码器和解码器。表现最佳的模型通过注意力机制将编码器和解码器连接起来。我们提出了一种新的简单网络架构——Transformer，完全基于注意力机制，摒弃了递归和卷积。在两个机器翻译任务上的实验证明，这些模型在质量上更优，同时更易并行化，训练时间显著缩短。我们的模型在WMT 2014年英德翻译任务上达到了28.4 BLEU，优于包括集成模型在内的现有最佳结果超过2 BLEU。在WMT 2014年英法翻译任务中，我们的模型在训练8个GPU的情况下，只需3.5天的时间得到了新的单模型BLEU得分记录41.8，这只是文献中最佳模型训练成本的很小一部分。我们展示了Transformer在其他任务中的泛化能力，通过成功地将其应用于使用大规模和有限训练数据的英语组分句法分析。
+∗表示相等贡献，排名随机。Jakob提出用自我注意力替换RNN，并开始评估这一想法。Ashish和Illia设计和实现了第一个Transformer模型，并在工作的各个方面扮演了关键角色。Noam提出了缩放的点积注意力、多头注意力和无参数位置表示，并在几乎每个细节中参与进来。Niki设计、实现、调优和评估了我们原始代码库和tensor2tensor中无数的模型变体。Llion也尝试了新颖的模型变体，负责我们的初始代码库，以及高效的推断和可视化。Lukasz和Aidan花费无数个漫长的日子设计tensor2tensor的各个部分并实现，并用他们的工作取代了我们之前的代码库，大大改善了结果并且加速了我们的研究。
+†工作在Google Brain期间完成。
+‡工作在Google Research期间完成。
+第31届神经信息处理系统会议(NIPS2017)，美国加州长滩。
+2024-01-02 02:58:54.999 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 02:59:40.347 | INFO     | translator.pdf_translator:translate_pdf:21 - 1介绍
+
+循环神经网络、长短期记忆和门控循环神经网络特别是已经成为序列建模和转录问题（如语言建模和机器翻译）的最先进方法[13，7，35，2，5]。近年来，大量的研究工作继续推动循环语言模型和编码器-解码器架构的边界[38，24，15]。
+
+循环模型通常通过计算输入和输出序列的符号位置来进行计算。将位置与计算时间的步骤对齐，它们生成一个隐藏状态序列h，作为上一个隐藏状态h和位置t的输入的函数。这种顺序性天生地阻止了在训练示例之间进行并行化，这在较长的序列长度时变得关键，因为内存约束限制了跨示例的批处理。近年来有研究通过因式分解技巧[21]和条件计算[32]来在计算效率上取得显著改进，同时在后者的情况下也改善了模型性能。然而，顺序计算的基本限制仍然存在。
+
+注意力机制已成为引人注目的序列建模和转录模型在各种任务中的重要组成部分，它允许无视输入或输出序列中的距离来建模依赖关系[2，19]。然而，在除了少数情况[27]之外，这些注意力机制通常与循环网络一起使用。
+
+在这项工作中，我们提出了Transformer，这是一种完全摒弃循环性而完全依赖于注意力机制来建立输入和输出的全局依赖关系的模型架构。Transformer允许更高的并行化，经过仅仅在八个P100GPU上训练12小时后，就可以达到翻译质量的新水平。
+
+2背景
+
+减少顺序计算的目标也是Extended Neural GPU [16]，ByteNet [18]和ConvS2S [9]的基础，它们都使用卷积神经网络作为基本构建块，可以并行计算所有输入和输出位置的隐藏表示。在这些模型中，相关来自两个任意输入或输出位置的信号所需的操作数随着位置之间的距离增加而线性增长（对于ConvS2S）或对数增长（对于ByteNet）。这样会使得学习远距离位置之间的依赖关系更加困难[12]。而在Transformer中，这被降低为常数数量的操作次数，尽管由于对注意力加权位置进行平均化，导致效果分辨率降低，这一效果我们通过多头注意力在第3.2节中进行了缓解。
+
+自我注意力，有时也称为内部注意力，是一种关联单个序列的不同位置以计算序列表示的注意机制。自我注意力已成功地应用于多种任务，包括阅读理解、抽象摘要、文本蕴含和学习任务无关的句子表示[4,27,28,22]。
+
+完全基于自我注意力进行输入和输出的表示的输入和输出的转录模型而不使用序列对齐的RNN或卷积是我们所知的第一种模型。在接下来的几节中，我们将描述Transformer，解释自我注意力并讨论它与诸如[17,18]和[9]等模型的优势。
+
+3模型架构
+
+大多数竞争性的神经序列转录模型都具有编码器-解码器结构[5,2,35]。在这里，编码器将符号表示的输入序列（x1，...，xn）映射为连续表示的序列z1, ..., zn。给定z，解码器则通过逐个元素地生成一个符号的输出序列(y1，...，ym)。在每一步中，模型都是自回归的[10]，在生成下一个符号时，将之前生成的符号作为附加输入。
+2024-01-02 03:00:26.180 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 03:00:26.267 | DEBUG    | translator.pdf_parser:parse_pdf:52 - [raw_text]
+ 
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 03:00:26.268 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+Providedproperattributionisprovided,Googleherebygrantspermissionto
+reproducethetablesandfiguresinthispapersolelyforuseinjournalisticor
+scholarlyworks.
+
+
+Attention Is All You Need
+
+
+
+
+
+
+AshishVaswani∗ NoamShazeer∗  NikiParmar∗ JakobUszkoreit∗
+GoogleBrain    GoogleBrain GoogleResearch GoogleResearch
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+LlionJones∗   AidanN.Gomez∗ †     ŁukaszKaiser∗
+GoogleResearch UniversityofToronto  GoogleBrain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+IlliaPolosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+
+Abstract
+
+Thedominantsequencetransductionmodelsarebasedoncomplexrecurrentor
+convolutionalneuralnetworksthatincludeanencoderandadecoder. Thebest
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+basedsolelyonattentionmechanisms,dispensingwithrecurrenceandconvolutions
+entirely. Experiments on two machine translation tasks show these models to
+besuperiorinqualitywhilebeingmoreparallelizableandrequiringsignificantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles,byover2BLEU.OntheWMT2014English-to-Frenchtranslationtask,
+ourmodelestablishesanewsingle-modelstate-of-the-artBLEUscoreof41.8after
+trainingfor3.5daysoneightGPUs,asmallfractionofthetrainingcostsofthe
+bestmodelsfromtheliterature. WeshowthattheTransformergeneralizeswellto
+othertasksbyapplyingitsuccessfullytoEnglishconstituencyparsingbothwith
+largeandlimitedtrainingdata.
+∗Equalcontribution.Listingorderisrandom.JakobproposedreplacingRNNswithself-attentionandstarted
+theefforttoevaluatethisidea.Ashish,withIllia,designedandimplementedthefirstTransformermodelsand
+hasbeencruciallyinvolvedineveryaspectofthiswork.Noamproposedscaleddot-productattention,multi-head
+attentionandtheparameter-freepositionrepresentationandbecametheotherpersoninvolvedinnearlyevery
+detail.Nikidesigned,implemented,tunedandevaluatedcountlessmodelvariantsinouroriginalcodebaseand
+tensor2tensor.Llionalsoexperimentedwithnovelmodelvariants,wasresponsibleforourinitialcodebase,and
+efficientinferenceandvisualizations.LukaszandAidanspentcountlesslongdaysdesigningvariouspartsofand
+implementingtensor2tensor,replacingourearliercodebase,greatlyimprovingresultsandmassivelyaccelerating
+ourresearch.
+†WorkperformedwhileatGoogleBrain.
+‡WorkperformedwhileatGoogleResearch.
+31stConferenceonNeuralInformationProcessingSystems(NIPS2017),LongBeach,CA,USA.
+3202
+guA
+2
+]LC.sc[
+7v26730.6071:viXra
+2024-01-02 03:01:02.899 | INFO     | translator.pdf_translator:translate_pdf:21 - 在提供适当归属的情况下，谷歌特此授予权限，仅用于新闻或学术作品中使用本文中的表格和图表。
+
+Attention Is All You Need
+
+Ashish Vaswani∗ Noam Shazeer∗ Niki Parmar∗ Jakob Uszkoreit∗
+Google Brain    Google Brain Google Research Google Research
+avaswani@google.com noam@google.com nikip@google.com usz@google.com
+
+Llion Jones∗   Aidan N. Gomez∗ †     Łukasz Kaiser∗
+Google Research University of Toronto  Google Brain
+llion@google.com aidan@cs.toronto.edu lukaszkaiser@google.com
+
+Illia Polosukhin∗ ‡
+illia.polosukhin@gmail.com
+
+摘要
+
+目前的主要序列转换模型基于复杂的循环或卷积神经网络，包括一个编码器和一个解码器。表现最好的模型还通过注意力机制将编码器和解码器连接起来。我们提出了一种新的简单网络架构，Transformer，它仅基于注意机制，完全放弃了循环和卷积。对两个机器翻译任务的实验证明，这些模型在质量上优于其他模型，同时更容易并行化，并且需要更少的训练时间。我们的模型在WMT 2014年英德翻译任务上达到了28.4 BLEU，相比现有最佳结果（包括集合）提升了2个BLEU。在WMT 2014年英法翻译任务中，我们的模型在训练8个GPU，3.5天后，达到了41.8 BLEU的新的单模型最优结果，训练成本只是文献中最佳模型的一小部分。我们还展示了Transformer在其他任务上具有广泛的泛化能力，通过成功应用它到大规模和有限训练数据的英语短语结构分析。
+
+∗平等贡献。排列顺序是随机的。Jakob提出了用自注意力替换循环神经网络的想法，并开始评估这个想法。Ashish和Illia设计和实现了第一个Transformer模型，并在工作的各个方面发挥了关键作用。Noam提出了缩放的点积注意力、多头注意力和无参数位置表示，几乎涉及到了每一个细节。Niki在我们的原始代码库和Tensor2Tensor中设计、实现、调整和评估了无数的模型变体。Llion还尝试了新颖的模型变体，负责我们的初始代码库，以及高效的推断和可视化。Lukasz和Aidan花费了大量时间设计Tensor2Tensor的各个部分，并实现了替换我们早期代码库的工作，显著提高了结果并大大加速了我们的研究。
+
+†在Google Brain期间执行的工作。
+‡在Google Research期间执行的工作。
+第31届神经信息处理系统会议(NIPS2017)，美国加利福尼亚州长滩。
+2024-01-02 03:01:02.900 | DEBUG    | translator.pdf_translator:translate_pdf:19 - 翻译为中文,请保留原本的格式(空格,换行符)：
+
+
+
+
+
+1 Introduction
+
+Recurrentneuralnetworks,longshort-termmemory[13]andgatedrecurrent[7]neuralnetworks
+inparticular,havebeenfirmlyestablishedasstateoftheartapproachesinsequencemodelingand
+transductionproblemssuchaslanguagemodelingandmachinetranslation[35,2,5]. Numerous
+effortshavesincecontinuedtopushtheboundariesofrecurrentlanguagemodelsandencoder-decoder
+architectures[38,24,15].
+Recurrentmodelstypicallyfactorcomputationalongthesymbolpositionsoftheinputandoutput
+sequences. Aligningthepositionstostepsincomputationtime,theygenerateasequenceofhidden
+statesh ,asafunctionoftheprevioushiddenstateh andtheinputforpositiont. Thisinherently
+t                        t−1
+sequentialnatureprecludesparallelizationwithintrainingexamples,whichbecomescriticalatlonger
+sequencelengths,asmemoryconstraintslimitbatchingacrossexamples. Recentworkhasachieved
+significantimprovementsincomputationalefficiencythroughfactorizationtricks[21]andconditional
+computation[32],whilealsoimprovingmodelperformanceincaseofthelatter. Thefundamental
+constraintofsequentialcomputation,however,remains.
+Attentionmechanismshavebecomeanintegralpartofcompellingsequencemodelingandtransduc-
+tionmodelsinvarioustasks,allowingmodelingofdependencieswithoutregardtotheirdistancein
+theinputoroutputsequences[2,19]. Inallbutafewcases[27],however,suchattentionmechanisms
+areusedinconjunctionwitharecurrentnetwork.
+InthisworkweproposetheTransformer,amodelarchitectureeschewingrecurrenceandinstead
+relyingentirelyonanattentionmechanismtodrawglobaldependenciesbetweeninputandoutput.
+TheTransformerallowsforsignificantlymoreparallelizationandcanreachanewstateoftheartin
+translationqualityafterbeingtrainedforaslittleastwelvehoursoneightP100GPUs.
+2 Background
+ThegoalofreducingsequentialcomputationalsoformsthefoundationoftheExtendedNeuralGPU
+[16],ByteNet[18]andConvS2S[9],allofwhichuseconvolutionalneuralnetworksasbasicbuilding
+block,computinghiddenrepresentationsinparallelforallinputandoutputpositions.Inthesemodels,
+thenumberofoperationsrequiredtorelatesignalsfromtwoarbitraryinputoroutputpositionsgrows
+inthedistancebetweenpositions,linearlyforConvS2SandlogarithmicallyforByteNet. Thismakes
+it more difficult to learn dependencies between distant positions [12]. In the Transformer this is
+reducedtoaconstantnumberofoperations, albeitatthecostofreducedeffectiveresolutiondue
+to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as
+describedinsection3.2.
+Self-attention,sometimescalledintra-attentionisanattentionmechanismrelatingdifferentpositions
+ofasinglesequenceinordertocomputearepresentationofthesequence. Self-attentionhasbeen
+usedsuccessfullyinavarietyoftasksincludingreadingcomprehension,abstractivesummarization,
+textualentailmentandlearningtask-independentsentencerepresentations[4,27,28,22].
+End-to-endmemorynetworksarebasedonarecurrentattentionmechanisminsteadofsequence-
+alignedrecurrenceandhavebeenshowntoperformwellonsimple-languagequestionansweringand
+languagemodelingtasks[34].
+To the best of our knowledge, however, the Transformer is the first transduction model relying
+entirelyonself-attentiontocomputerepresentationsofitsinputandoutputwithoutusingsequence-
+alignedRNNsorconvolution. Inthefollowingsections,wewilldescribetheTransformer,motivate
+self-attentionanddiscussitsadvantagesovermodelssuchas[17,18]and[9].
+3 ModelArchitecture
+Mostcompetitiveneuralsequencetransductionmodelshaveanencoder-decoderstructure[5,2,35].
+Here, the encoder maps an input sequence of symbol representations (x ,...,x ) to a sequence
+1   n
+of continuous representations z = (z ,...,z ). Given z, the decoder then generates an output
+1  n
+sequence(y ,...,y )ofsymbolsoneelementatatime. Ateachstepthemodelisauto-regressive
+1  m
+[10],consumingthepreviouslygeneratedsymbolsasadditionalinputwhengeneratingthenext.
+2
+2024-01-02 03:01:52.559 | INFO     | translator.pdf_translator:translate_pdf:21 - 1 引言
+
+循环神经网络、长短时记忆网络[13]和门控循环神经网络[7]已经被牢固地确立为序列建模和转录问题（如语言建模和机器翻译）的最先进方法[35,2,5]。自那以后，许多努力一直在推动循环语言模型和编码器-解码器架构的界限[38,24,15]。
+循环模型通常基于输入和输出序列中的符号位置进行计算。通过将位置与计算时间步骤对齐，它们生成作为位置t的前一个隐藏状态h和输入的函数的隐藏状态序列h。然而，由于其顺序性质，这种方法在训练示例中无法进行并行化，在更长的序列长度上变得关键，因为记忆限制限制了跨示例的批处理。最近的研究通过因式分解技巧[21]和条件计算[32]在计算效率上取得了显着的改进，同时在后者的情况下也提高了模型性能。然而，顺序计算的基本约束仍然存在。
+
+在各种任务中，注意力机制已成为引人注目的序列建模和转导模型的一个重要组成部分，它允许依赖性的建模而不考虑它们在输入或输出序列中的距离[2,19]。然而除了少数几种情况[27]外，这种注意力机制通常与循环网络结合使用。
+
+在这项工作中，我们提出了Transformer，这是一种架构模型，它摒弃了循环性，而完全依赖于注意机制来绘制输入和输出之间的全局依赖关系。Transformer允许更高程度的并行化，并在仅经过12小时在8台P100GPU上训练后达到了新的翻译质量水平。
+
+2 背景
+
+减少顺序计算的目标也是Extended Neural GPU[16]、ByteNet[18]和ConvS2S[9]的基础，它们都使用卷积神经网络作为基本构建块，为所有输入和输出位置同时计算隐藏表示。在这些模型中，从两个任意输入或输出位置相互关联所需的操作数量随位置之间的距离而增长，对于ConvS2S是线性增长，对于ByteNet是对数增长。这使得在远距离位置之间学习依赖关系变得更加困难。在Transformer中，这被减少为固定数量的操作，尽管由于对加权位置进行平均，导致有效分辨率降低，我们通过Multi-Head Attention来抵消这种效应，具体描述见第3.2节。
+
+自注意力，有时被称为内部关注，是一种关注机制，用于计算序列的不同位置之间的表示。自注意力在包括阅读理解、抽象总结、文本蕴含和学习与任务无关的句子表示等多种任务中取得了成功[4,27,28,22]。
+
+自始至终的记忆网络是基于一种循环关注机制而不是序列对齐重复，并已在简单语言问答和语言建模任务中表现良好[34]。
+
+据我们所知，然而，Transformer是第一个完全依赖于自注意力计算其输入和输出的表示而不使用序列对齐的RNN或卷积的转导模型。在接下来的几节中，我们将描述Transformer，阐明自注意力的动机，并讨论它相对于模型[17,18]和[9]的优势。
+
+3 模型架构
+
+大多数有竞争力的神经序列转导模型都具有编码器-解码器结构[5,2,35]。在这里，编码器将符号表示的输入序列(x1,...,xn)映射到连续表示的序列z1,...,zn。给定z，解码器然后生成一个输出序列(y1,...,ym)的符号，每次一次生成一个元素。在每个步骤中，模型是自回归的[10]，在生成下一个元素时将先前生成的符号作为额外的输入。
+2024-01-02 03:01:52.559 | INFO     | translator.writer:_save_translated_book_markdown:90 - pdf_file_path: tests/attention is all you need.pdf
+2024-01-02 03:01:52.559 | INFO     | translator.writer:_save_translated_book_markdown:91 - 开始翻译: tests/attention is all you need_translated.md
+2024-01-02 03:01:52.560 | INFO     | translator.writer:_save_translated_book_markdown:120 - 翻译完成: tests/attention is all you need_translated.md
